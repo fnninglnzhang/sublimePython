@@ -36,7 +36,7 @@ class LoginTest(myunit.MyTest):
         # username = "test" + character
         # po.login_action(username,"$#%#")
         po.login_action("test", "$#%#")
-        sleep(2)
+        sleep(4)
         # print(po.login_error_hint())
         self.assertEqual(po.login_error_hint(),'帐号或密码错误')
         function.insert_img(self.driver, "user_pwd_error.jpg")
