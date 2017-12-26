@@ -32,11 +32,12 @@ class LoginTest(myunit.MyTest):
         '''用户名或密码错误'''
         po = LoginPage(self.driver)
         po.open()
-        character = random.choice('zyxwvutsrqponmlkjihgfedcba')
-        username = "test" + character
-        po.login_action(username,"$#%#")
+        # character = random.choice('zyxwvutsrqponmlkjihgfedcba')
+        # username = "test" + character
+        # po.login_action(username,"$#%#")
+        po.login_action("test", "$#%#")
         sleep(2)
-        print(po.login_error_hint())
+        # print(po.login_error_hint())
         self.assertEqual(po.login_error_hint(),'帐号或密码错误')
         function.insert_img(self.driver, "user_pwd_error.jpg")
 
@@ -45,7 +46,7 @@ class LoginTest(myunit.MyTest):
         po = LoginPage(self.driver)
         po.open()
         user = "oyellow6"
-        po.login_action(user,"nn123456")
+        po.login_action(user,"qwer1234")
         sleep(2)
         po2 = MailPage(self.driver)
         print(po2.login_success_user())

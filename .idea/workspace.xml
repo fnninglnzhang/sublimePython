@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e52a6c4c-974f-4bb8-9ec5-510bcd75c829" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/login_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/login_kcase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/report/image/pwd_null.jpg" afterPath="$PROJECT_DIR$/test_programe/mail/report/image/pwd_null.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/report/image/user_pwd_null.jpg" afterPath="$PROJECT_DIR$/test_programe/mail/report/image/user_pwd_null.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_programe/mail/report/image/baidu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_programe/mail/report/image/pwd_null.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_programe/mail/report/image/success.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_programe/mail/report/image/top9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_programe/mail/report/image/user_pwd_null.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/login_kcase.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/login_case.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/top9_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/top9_case.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +38,11 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="login_kcase.py" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login_kcase.py">
+            <file leaf-file-name="login_case.py" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login_case.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="671">
-                    <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+                  <state relative-caret-position="594">
+                    <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
                     <folding>
                       <element signature="e#42#64#0" expanded="true" />
                     </folding>
@@ -76,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="top9_case.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="top9_case.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/top9_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="52" />
+            <state relative-caret-position="539">
+              <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
               <folding>
                 <element signature="e#42#64#0" expanded="true" />
               </folding>
@@ -88,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_page.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login_page.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="e#43#107#0" expanded="true" />
               </folding>
@@ -173,7 +176,6 @@
         <option value="$USER_HOME$/demo1/login.py" />
         <option value="$USER_HOME$/demo1/loginbaidu.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/function.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/login_case.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/home_page_case.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/myunit.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/driver.py" />
@@ -181,12 +183,13 @@
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/homepage_case.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/geckodriver.log" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/homepage_ccase.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py" />
         <option value="$PROJECT_DIR$/test_programe/run_all_test.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/base.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/top9_case.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/top_window.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/top9_case.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/login_case.py" />
       </list>
     </option>
   </component>
@@ -257,14 +260,6 @@
               <item name="test_programe" type="462c0819:PsiDirectoryNode" />
               <item name="mail" type="462c0819:PsiDirectoryNode" />
               <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sublimePython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sublimePython" type="462c0819:PsiDirectoryNode" />
-              <item name="test_programe" type="462c0819:PsiDirectoryNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sublimePython" type="b2602c69:ProjectViewProjectNode" />
@@ -539,7 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login_kcase.py">
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login_case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
@@ -611,7 +606,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login_kcase.py">
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login_case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
@@ -726,7 +721,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login_kcase.py">
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login_case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
@@ -802,16 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#43#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/run_all_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -840,22 +825,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login_kcase.py">
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/top9_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="539">
+          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding>
             <element signature="e#42#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/top9_case.py">
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="52" />
+        <state relative-caret-position="594">
+          <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
           <folding>
             <element signature="e#42#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#107#0" expanded="true" />
           </folding>
         </state>
       </provider>

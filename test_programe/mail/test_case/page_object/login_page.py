@@ -34,7 +34,7 @@ class LoginPage(Base):
     def login_error_hint(self):
         self.login_iframe()
         return self.find_element(*self.login_erro_hint_loc).text
-        self.login_iframe_out()
+        # self.login_iframe_out()
 
     def login_action(self, username, password):
         self.login_iframe()
