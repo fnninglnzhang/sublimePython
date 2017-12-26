@@ -14,8 +14,15 @@ class Top_9(myunit.MyTest):
 		"""断言该字有没有"""
 		po = TopWindow(self.driver)
 		po.open()
+		"""
 		try:
-			self.assertEqual(po.find_element(),'私人助理')
+			self.assertEqual(po.login_top(), '私人zhu理')
+			# self.assertEqual(po.login_top(),'私人助理')
 			print('私人助理')
 		except AssertionError as e:
 			print('错误')
+		"""
+		sleep(2)
+		self.assertEqual(po.login_top(), '私人助理')
+		# self.assertEqual(po.login_top(), '私人zhu理')
+		function.insert_img(self.driver, "top9.jpg")
