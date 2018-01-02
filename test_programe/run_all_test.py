@@ -2,7 +2,8 @@
 # -*- coding: UTF-8 -*-
 
 import unittest, time
-from HTMLTestRunner import HTMLTestRunner
+# from HTMLTestRunner import HTMLTestRunner
+from MyHTMLTestReportCN import HTMLTestRunner
 from email.mime.text import MIMEText
 from email.header import Header
 import smtplib,os
@@ -41,7 +42,8 @@ def new_report(testreport):
 
 # 指定测试用例为当前文件夹下的test_case目录
 test_dir = './mail/test_case'
-test_report = 'F:\\work\\python\\python\\sublimePython\\test_programe\\mail\\report'
+# test_report = 'F:\\work\\python\\python\\sublimePython\\test_programe\\mail\\report'
+test_report = 'c:\\Users\\Administrator\\Desktop\\sublimePython\\test_programe\\mail\\report'
 """找到test_dir目录下所有的******——case的文件并执行
 以通过文件的名称来判断是否为测试用例文件，如为用例文件则自动添加到测试套件中
 """
