@@ -7,15 +7,17 @@ from page import Page
 from selenium import webdriver
 #页面对象（PO）登录页面
 class LoginPage(Page):
-    url = '/toLoginPage'
-    pppiglogin_btn_topassword = (By.ID,'zhanghaoDl')
+    # url = '/toLoginPage'
+    url = '/accountInfo'
+    # pppiglogin_btn_topassword = (By.ID,'zhanghaoDl')
+    pppiglogin_btn_topassword = (By.XPATH, ".//*[@id='zhanghaoDl']")
     pppiglogin_username_text = (By.NAME, 'userName')
     pppiglogin_password_text = (By.NAME, 'password')
     pppiglogin_button_text = (By.ID, 'loginSubmit')
     pppiglogin_erro_hint_text = (By.ID, 'errorStr')
 
-    #把每一个元素封装成一个方法
-    def btn_topassword(self):
+    # 把每一个元素封装成一个方法
+    def pppig_click_topassword(self):
         self.driver.find_element(self.pppiglogin_btn_topassword).click()
 
     def pppiglogin_username(self, text):
@@ -32,7 +34,7 @@ class LoginPage(Page):
 
 
     def pppiglogin_action(self, username, password):
-        self.btn_topassword()
+        self.pppig_click_topassword()
         self.pppiglogin_username(username)
         self.pppiglogin_password(password)
         self.pppiglogin_button()

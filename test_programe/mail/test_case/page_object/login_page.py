@@ -4,6 +4,10 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from time import sleep
 from base import Base
+from selenium.webdriver.support.ui import WebDriverWait as Wa
+from selenium.webdriver.support import expected_conditions as Ec
+
+
 # 你的page_object需要是一个包目录，不能是普通的文件夹目录然后直接from base import 导入就可以了
 
 #页面对象（PO）登录页面
@@ -35,6 +39,24 @@ class LoginPage(Base):
         self.login_iframe()
         return self.find_element(*self.login_erro_hint_loc).text
         # self.login_iframe_out()
+
+    # 加入显性等待封装
+    def wait_title_contains(self, element):
+        try:
+            return Wa(self.driver, 10, 0.5).until(Ec.title_contains(element))
+        except Exception as e:
+            print(e)
+            print('未找到对应元素')
+
+    def wait_presence_of_element_located(self, element):
+        try:
+            return Wa(self.driver, 10, 0.5).until(Ec.presence_of_element_located(element))
+        except Exception as e:
+            print(e)
+            print('未找到对应元素')
+
+
+
 
     def login_action(self, username, password):
         self.login_iframe()
