@@ -6,7 +6,7 @@ def open_excel(file='file.xls'):
 	try:
 		data = xlrd.open_workbook(file)
 		return data
-	except BaseException :
+	except BaseException as e:
 		print('error')
 	# 根据索引获取Excel表格中的数据 参数:file：Excel文件路径 colnameindex：表头列名所在行的所以 ，by_index：表的索引
 
