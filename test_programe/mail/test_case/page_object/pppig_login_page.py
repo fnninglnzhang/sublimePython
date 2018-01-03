@@ -3,7 +3,7 @@
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from time import sleep
-from page import Page
+from pppig_page import Page
 from selenium import webdriver
 #页面对象（PO）登录页面
 class LoginPage(Page):
