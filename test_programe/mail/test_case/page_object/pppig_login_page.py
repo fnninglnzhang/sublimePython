@@ -20,19 +20,19 @@ class LoginPage(Page):
 
     # 把每一个元素封装成一个方法
     def pppig_click_topassword(self):
-        self.driver.find_element(self.pppiglogin_btn_topassword).click()
+        self.find_element(self.pppiglogin_btn_topassword).click()
 
     def pppiglogin_username(self, text):
-        self.driver.find_element(*self.pppiglogin_username_text).send_keys(text)
+        self.find_element(*self.pppiglogin_username_text).send_keys(text)
 
     def pppiglogin_password(self, text):
-        self.driver.find_element(*self.pppiglogin_password_text).send_keys(text)
+        self.find_element(*self.pppiglogin_password_text).send_keys(text)
 
     def pppiglogin_button(self):
-        self.driver.find_element(*self.pppiglogin_button_text).click()
+        self.find_element(*self.pppiglogin_button_text).click()
 
     def pppiglogin_erro_hint(self):
-        return self.driver.find_element(*self.pppiglogin_erro_hint_text).text
+        return self.find_element(*self.pppiglogin_erro_hint_text).text
 
 
     def pppiglogin_Action(self, username, password):

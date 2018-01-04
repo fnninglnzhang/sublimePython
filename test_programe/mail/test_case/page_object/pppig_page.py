@@ -25,26 +25,12 @@ class Page(object):
 
 	def open(self):
 		self._open(self.url)
-"""
+
 
 # *参数个数不是固定的（By.ID, 'kw'）
 	def find_element(self, *loc):
 		# 元祖接收多余的参数，预防程序报错，把多余的存起来
 		return self.driver.find_element(*loc)
-
-	def iframe(self, iframeid):
-		return self.driver.switch_to.frame(iframeid)
-
-	def iframe_out(self):
-		return self.driver.switch_to.default_content()
-"""
-
-
-
-
-
-
-
 
 
 

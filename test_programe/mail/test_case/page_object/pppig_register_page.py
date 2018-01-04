@@ -27,40 +27,40 @@ class RegisterPage(Page):
 	# 把每一个元素封装成一个方法
 	# 角色
 	def pppig_User1_role(self):
-		self.driver.find_element(self.pppigregister_User1_role_text).click()
+		self.find_element(self.pppigregister_User1_role_text).click()
 
 	def pppig_User2_role(self):
-		self.driver.find_element(self.pppigregister_User2_role_text).click()
+		self.find_element(self.pppigregister_User2_role_text).click()
 	# 手机号
 	def pppigregister_Username(self, text):
-		self.driver.find_element(*self.pppigregister_User_phone_text).send_keys(text)
+		self.find_element(*self.pppigregister_User_phone_text).send_keys(text)
 
 	def pppigregister_Password(self, text):
-		self.driver.find_element(*self.pppigregister_User_pwd_text).send_keys(text)
+		self.find_element(*self.pppigregister_User_pwd_text).send_keys(text)
 
 	def pppigregister_TXcode(self, text):
-		self.driver.find_element(*self.pppigregister_TXVerification_code_text).send_keys(text)
+		self.find_element(*self.pppigregister_TXVerification_code_text).send_keys(text)
 
 	def pppigregister_GetCode_Button(self):
-		self.driver.find_element(self.pppigregister_GetCode_Button_text).click()
+		self.find_element(self.pppigregister_GetCode_Button_text).click()
 
 	def pppigregister_Referral_invitation_code(self):
-		self.driver.find_element(self.pppigregister_Referral_invitation_code_text).click()
+		self.find_element(self.pppigregister_Referral_invitation_code_text).click()
 
 	def pppigregister_code(self, text):
-		self.driver.find_element(*self.pppigregister_Verification_code_text).send_keys(text)
+		self.find_element(*self.pppigregister_Verification_code_text).send_keys(text)
 
 	def pppigregister_Invitation_code(self):
-		self.driver.find_element(*self.pppigregister_Invitation_code_text).click()
+		self.find_element(*self.pppigregister_Invitation_code_text).click()
 
 	def pppigregister_Agreement(self):
-		self.driver.find_element(*self.pppigregister_Agreement_text).click()
+		self.find_element(*self.pppigregister_Agreement_text).click()
 
 	def pppigregister_button(self):
-		self.driver.find_element(*self.pppigregister_Button_text).click()
+		self.find_element(*self.pppigregister_Button_text).click()
 
 	def pppigregiter_mobile_erro_hint(self):
-		return self.driver.find_element(*self.pppigregiter_mobile_erro_hint_text).text
+		return self.find_element(*self.pppigregiter_mobile_erro_hint_text).text
 
 
 	def pppigregiter_Action(self, username, password, TXcode, code):

@@ -10,7 +10,7 @@ class Important_noticePage(Page):
 	pppigtongzhi_popup_text = (By.CLASS_NAME, 'closeBtn')
 
 	def pppigtongzhi_Popup(self):
-		self.driver.find_element(self.pppigtongzhi_popup_text).click()
+		self.find_element(self.pppigtongzhi_popup_text).click()
 
 	def pppignotice_Action(self):
 		self.pppigtongzhi_Popup()
