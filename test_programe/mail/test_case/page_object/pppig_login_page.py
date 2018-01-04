@@ -20,7 +20,7 @@ class LoginPage(Page):
 
     # 把每一个元素封装成一个方法
     def pppig_click_topassword(self):
-        self.find_element(self.pppiglogin_btn_topassword).click()
+        self.find_element(*self.pppiglogin_btn_topassword).click()
 
     def pppiglogin_username(self, text):
         self.find_element(*self.pppiglogin_username_text).send_keys(text)

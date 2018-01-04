@@ -15,6 +15,5 @@ class Important_noticeTest(myunit.MyTest):
 		po.open()
 		sleep(2)
 		po.pppignotice_Action()
-
-		function.insert_img(self.driver, "closenotice.jpg")
+		function.insert_img(self.driver, "closenotice1.jpg")
 
