@@ -4,7 +4,9 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from time import sleep
 from pppig_page import Page
+from model import *
 from selenium import webdriver
+
 #页面对象（PO）登录页面
 class LoginPage(Page):
     # url = '/toLoginPage'
@@ -33,8 +35,9 @@ class LoginPage(Page):
         return self.driver.find_element(*self.pppiglogin_erro_hint_text).text
 
 
-    def pppiglogin_action(self, username, password):
+    def pppiglogin_Action(self, username, password):
         self.pppig_click_topassword()
         self.pppiglogin_username(username)
         self.pppiglogin_password(password)
         self.pppiglogin_button()
+

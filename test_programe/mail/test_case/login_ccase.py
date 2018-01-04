@@ -14,7 +14,7 @@ class LoginTest(myunit.MyTest):
         '''用户名、密码为空登录'''
         po = LoginPage(self.driver)
         po.open()
-        po.login_action('','')
+        po.login_action('', '')
         sleep(2)
         self.assertEqual(po.login_error_hint(),'请输入帐号')
         function.insert_img(self.driver, 'user_pwd_null.jpg')

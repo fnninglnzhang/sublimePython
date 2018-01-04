@@ -10,8 +10,8 @@ from selenium.webdriver.support import expected_conditions as Ec
 
 
 class Page(object):
-	# def __init__(self, driver, base_url='https://t.pangpangpig.com'):
-	def __init__(self, driver, base_url='https://www.pangpangpig.com'):
+	def __init__(self, driver, base_url='https://t.pangpangpig.com'):
+	# def __init__(self, driver, base_url='https://www.pangpangpig.com'):
 		self.driver = driver
 		self.base_url = base_url
 		self.timeout = 30
@@ -25,6 +25,7 @@ class Page(object):
 
 	def open(self):
 		self._open(self.url)
+"""
 
 # *参数个数不是固定的（By.ID, 'kw'）
 	def find_element(self, *loc):
@@ -36,7 +37,7 @@ class Page(object):
 
 	def iframe_out(self):
 		return self.driver.switch_to.default_content()
-
+"""
 
 
 

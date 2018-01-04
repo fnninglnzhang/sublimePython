@@ -17,8 +17,7 @@ class LoginTest(myunit.MyTest):
         sleep(5)
         po.open()
         user = "13011111101"
-        po.pppiglogin_action(user,"111111")
-        # po.pppiglogin_action("13011111101","111111")
+        po.pppiglogin_Action(user, "111111")
         sleep(2)
         po2 = To_login(self.driver)
         print(po2.login_success_user())
