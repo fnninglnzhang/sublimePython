@@ -13,8 +13,8 @@ class LoginPage(Page):
     url = '/accountInfo'
     # pppiglogin_btn_topassword = (By.ID,'zhanghaoDl')
     pppiglogin_btn_topassword = (By.XPATH, ".//*[@id='zhanghaoDl']")
-    pppiglogin_username_text = (By.NAME, 'userName')
-    pppiglogin_password_text = (By.NAME, 'password')
+    pppiglogin_username_text = (By.ID, 'userName')
+    pppiglogin_password_text = (By.ID, 'password')
     pppiglogin_button_text = (By.ID, 'loginSubmit')
     pppiglogin_erro_hint_text = (By.ID, 'errorStr')
 

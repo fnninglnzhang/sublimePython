@@ -27,10 +27,10 @@ class RegisterPage(Page):
 	# 把每一个元素封装成一个方法
 	# 角色
 	def pppig_User1_role(self):
-		self.find_element(self.pppigregister_User1_role_text).click()
+		self.find_element(*self.pppigregister_User1_role_text).click()
 
 	def pppig_User2_role(self):
-		self.find_element(self.pppigregister_User2_role_text).click()
+		self.find_element(*self.pppigregister_User2_role_text).click()
 	# 手机号
 	def pppigregister_Username(self, text):
 		self.find_element(*self.pppigregister_User_phone_text).send_keys(text)
@@ -42,10 +42,10 @@ class RegisterPage(Page):
 		self.find_element(*self.pppigregister_TXVerification_code_text).send_keys(text)
 
 	def pppigregister_GetCode_Button(self):
-		self.find_element(self.pppigregister_GetCode_Button_text).click()
+		self.find_element(*self.pppigregister_GetCode_Button_text).click()
 
 	def pppigregister_Referral_invitation_code(self):
-		self.find_element(self.pppigregister_Referral_invitation_code_text).click()
+		self.find_element(*self.pppigregister_Referral_invitation_code_text).click()
 
 	def pppigregister_code(self, text):
 		self.find_element(*self.pppigregister_Verification_code_text).send_keys(text)

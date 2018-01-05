@@ -16,13 +16,13 @@ class LoginTest(myunit.MyTest):
         po = LoginPage(self.driver)
         sleep(5)
         po.open()
-        user = "13011111101"
-        po.pppiglogin_Action(user, "111111")
+        username = "13011111101"
+        po.pppiglogin_Action(username, "111111")
         sleep(2)
         po2 = To_login(self.driver)
         print(po2.login_success_user())
-        self.assertEqual(po2.login_success_user(),user)
-        function.insert_img(self.driver, "success.jpg")
+        self.assertEqual(po2.login_success_user(),username)
+        function.insert_img(self.driver, "success.png")
 
 
 # 用于验证该脚本是否有效
