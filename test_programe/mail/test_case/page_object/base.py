@@ -8,8 +8,8 @@ import unittest
 
 # 基本层
 class Base(object):
-    # def __init__(self, driver, base_url='http://mail.163.com'):
-    def __init__(self, driver, base_url='https://www.baidu.com'):
+    def __init__(self, driver, base_url='http://mail.163.com'):
+    # def __init__(self, driver, base_url='https://www.baidu.com'):
         self.driver = driver
         self.base_url = base_url
         self.timeout = 30

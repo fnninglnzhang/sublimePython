@@ -55,7 +55,12 @@ class LoginPage(Base):
             print(e)
             print('未找到对应元素')
 
-
+    def wait_presence_of_element_login_error_hint_located(self, element):
+        try:
+            return Wa(self.driver, 10, 0.5).until(Ec.presence_of_element_located(element))
+        except Exception as e:
+            print(e)
+            print('未找到对应元素')
 
 
     def login_action(self, username, password):

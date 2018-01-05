@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/test_programe/mail/test_case" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test_programe/mail/test_case/page_object" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.6.4 (C:\Users\Administrator\AppData\Local\Programs\Python\Python36\python.exe)" jdkType="Python SDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
