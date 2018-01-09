@@ -77,11 +77,15 @@ class ForgetPWD(Page):
 	def toFindLoginPasswordPage_Action(self):
 		self.pppigselect_Mobilephone_modification_pwd()
 
-	def toFindLoginPasswordForPhonePage_Action(self, cellphone, code, cellcode):
+	def toFindLoginPasswordForPhonePage1_Action(self, cellphone, code):
 		# self.pppigselect_Mobilephone_modification_pwd()
 		self.pppigselect_Mobilephone_modification_pwd_telephonenumber(cellphone)
 		self.pppigselect_Mobilephone_modification_pwd_verificationcode(code)
 		self.pppigselect_Mobilephone_modification_pwd_Click_on_the_get()
+		# self.pppigselect_Mobilephone_modification_pwd_cellphone_verificationcode(cellcode)
+		# self.pppigselect_Mobilephone_modification_pwd_next_step()
+
+	def toFindLoginPasswordForPhonePage2_Action(self,cellcode):
 		self.pppigselect_Mobilephone_modification_pwd_cellphone_verificationcode(cellcode)
 		self.pppigselect_Mobilephone_modification_pwd_next_step()
 

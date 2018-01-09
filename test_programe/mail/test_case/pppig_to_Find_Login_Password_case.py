@@ -12,11 +12,11 @@ class FindPWD(myunit.MyTest):
 		"""找回密码"""
 		po = ForgetPWD(self.driver)
 		po.open()
-
 		po.toFindLoginPasswordPage_Action()
 		po2 = SelectMySQL()
+		po.toFindLoginPasswordForPhonePage1_Action("13011111101", "1111")
 		a = po2.select_Data("select validCode from mobile_authen where mobile=13011111101 and mobileAuthenid>3399000 ORDER BY sendTime desc limit 0,1")
-		po.toFindLoginPasswordForPhonePage_Action("13011111101", "1111", a)
+		po.toFindLoginPasswordForPhonePage2_Action(a)
 		po.findByValidCodeP("111111", "111111")
 
 # 用于验证该脚本是否有效
