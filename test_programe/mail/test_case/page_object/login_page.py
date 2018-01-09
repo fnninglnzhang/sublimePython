@@ -59,7 +59,7 @@ class LoginPage(Base):
 
     def wait_presence_of_element_login_error_hint_located(self, element):
         try:
-            return Wa(self.driver, 10, 0.5).until(Ec.presence_of_element_located(element))
+            return Wa(self.driver, 10, 0.5).until(Ec.presence_of_element_located(By.CLASS_NAME, 'ferrorhead'))
         except Exception as e:
             print(e)
             print('未找到对应元素')
