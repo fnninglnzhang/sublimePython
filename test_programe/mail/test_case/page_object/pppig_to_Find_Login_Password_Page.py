@@ -93,3 +93,5 @@ class ForgetPWD(Page):
 		self.pppigselect_Mobilephone_modification_pwd_new_pwd(newpassword1)
 		self.pppigselect_Mobilephone_modification_pwd_enter_new_pwd(rnewpassword1)
 		self.pppigselect_Mobilephone_modification_pwd_enter_new_pwd_next_step()
+
+
