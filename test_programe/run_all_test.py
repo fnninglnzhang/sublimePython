@@ -10,7 +10,22 @@ import smtplib,os
 import sys
 # reload(sys)
 # sys.setdefaultencoding('utf8')
-
+"""
+def send_mail(file_new):
+	f = open(file_new, 'rb')
+	mail_body = f.read()
+	f.close()
+	msg = MIMEText(mail_body, 'html', 'utf-8')
+	msg['Subject'] = Header("自动化测试报告", 'utf-8')
+	msg['From'] = '17310520712@163.com'
+	msg['To'] = '17310520712@163.com'
+	smtp = smtplib.SMTP()
+	smtp.connect("smtp.163.com")
+	smtp.login("17310520712@163.com", "1989tq==C")
+	smtp.sendmail("17310520712@163.com", "17310520712@163.com", msg.as_string())
+	smtp.quit()
+	print('email has send out!')
+"""
 # 发送测试报告，需要配置你的邮箱账号
 def send_mail(file_new):
 	f = open(file_new, 'rb')
@@ -18,14 +33,11 @@ def send_mail(file_new):
 	f.close()
 	msg = MIMEText(mail_body, 'html', 'utf-8')
 	msg['Subject'] = Header("自动化测试报告", 'utf-8')
-	# msg['From'] = 'ldq791918813@163.com'
 	msg['From'] = 'oyellow6@163.com'
-	# msg['To'] = '791918813@qq.com'
 	msg['To'] = '2513953126@qq.com'
 	smtp = smtplib.SMTP()
 	smtp.connect("smtp.163.com")
 	smtp.login("oyellow6@163.com", "qwer1234")
-	#smtp.sendmail("ldq791918813@163.com", "791918813@qq.com", msg.as_string())
 	smtp.sendmail("oyellow6@163.com", "2513953126@qq.com", msg.as_string())
 	smtp.quit()
 	print('email has send out!')
@@ -43,7 +55,7 @@ def new_report(testreport):
 # 指定测试用例为当前文件夹下的test_case目录
 test_dir = './mail/test_case'
 # test_report = 'F:\\work\\python\\python\\sublimePython\\test_programe\\mail\\report'
-test_report = 'c:\\Users\\Administrator\\Desktop\\sublimePython\\test_programe\\mail\\report'
+test_report = 'e:\\python\\demo\\sublimePython\\test_programe\\mail\\report'
 """找到test_dir目录下所有的******——case的文件并执行
 以通过文件的名称来判断是否为测试用例文件，如为用例文件则自动添加到测试套件中
 """
