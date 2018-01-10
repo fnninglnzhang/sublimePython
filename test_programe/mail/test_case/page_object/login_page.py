@@ -6,6 +6,8 @@ from time import sleep
 from base import Base
 from selenium.webdriver.support.ui import WebDriverWait as Wa
 from selenium.webdriver.support import expected_conditions as Ec
+import codecs
+
 
 
 # 你的page_object需要是一个包目录，不能是普通的文件夹目录然后直接from base import 导入就可以了
@@ -73,5 +75,4 @@ class LoginPage(Base):
         self.login_password(password)
         self.login_button()
         self.login_iframe_out()
-
 

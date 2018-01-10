@@ -17,13 +17,13 @@ class RegisterTest(myunit.MyTest):
         sleep(2)
         poRegistercode = SelectMySQL()
         poRegister.open()
-        poRegister.goregisternoinvite1_Action("13011111120", "111111", "1111")
-        checkCode = poRegistercode.select_Data("select validCode from mobile_authen where mobile=13011111120 and mobileAuthenid>3399000 ORDER BY sendTime desc limit 0,1")
+        poRegister.goregisternoinvite1_Action("13011111122", "111111", "1111")
+        checkCode = poRegistercode.select_Data("select validCode from mobile_authen where mobile=13011111122 and mobileAuthenid>3399000 ORDER BY sendTime desc limit 0,1")
         poRegister.goregisternoinvite2_Action(checkCode)
         poopendepository = Opendepository(self.driver)
         poopendepository.opendepository1_Action()
         sleep(2)
-        poopendepository.opendepository2_Action("李测试账户四", "310101197509303108", "3005125283339280", "111111")
+        poopendepository.opendepository2_Action("李测试账户五", "310101199207230627", "3005294647733520", "111111")
 
 
         sleep(2)

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e52a6c4c-974f-4bb8-9ec5-510bcd75c829" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/model/txt.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_open_the_depository_page.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_open_the_depository_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/login1_ccase.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/login1_ccase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/model/connect_mysql.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/model/connect_mysql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_case.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_login1_ccase_py.coverage" NAME="Unittests in login1_ccase.py Coverage Results" MODIFIED="1515573902626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$login_page.coverage" NAME="login_page Coverage Results" MODIFIED="1514861805401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_homepage_case_py.coverage" NAME="Unittests in homepage_case.py Coverage Results" MODIFIED="1514190914735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$pppig_to_invest_page.coverage" NAME="pppig_to_invest_page Coverage Results" MODIFIED="1515130968031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
@@ -21,7 +26,7 @@
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_important_notice_case_py.coverage" NAME="Unittests in pppig_important_notice_case.py Coverage Results" MODIFIED="1515112773192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_login_case_py.coverage" NAME="Unittests in pppiglogin_case.py Coverage Results" MODIFIED="1514878669183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_myunit_py.coverage" NAME="Unittests in myunit.py Coverage Results" MODIFIED="1513562939946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
-    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_register_case_py.coverage" NAME="Unittests in pppig_register_case.py Coverage Results" MODIFIED="1515556391017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_register_case_py.coverage" NAME="Unittests in pppig_register_case.py Coverage Results" MODIFIED="1515565109636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$loginbaidu.coverage" NAME="loginbaidu Coverage Results" MODIFIED="1513584985168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/demo1" />
     <SUITE FILE_PATH="coverage/sublimePython$base.coverage" NAME="base Coverage Results" MODIFIED="1514533362551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
     <SUITE FILE_PATH="coverage/sublimePython$pppig_login_page.coverage" NAME="pppig_login_page Coverage Results" MODIFIED="1515032807094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
@@ -39,23 +44,24 @@
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppigregister_case_py.coverage" NAME="Unittests in pppigregister_case.py Coverage Results" MODIFIED="1514967322236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$login.coverage" NAME="login Coverage Results" MODIFIED="1513584279552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/demo1" />
     <SUITE FILE_PATH="coverage/sublimePython$test.coverage" NAME="test Coverage Results" MODIFIED="1514877250716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/work/python" />
-    <SUITE FILE_PATH="coverage/sublimePython$connect_mysql.coverage" NAME="connect_mysql Coverage Results" MODIFIED="1514948795290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/model" />
+    <SUITE FILE_PATH="coverage/sublimePython$txt.coverage" NAME="txt Coverage Results" MODIFIED="1515578397930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/model" />
+    <SUITE FILE_PATH="coverage/sublimePython$connect_mysql.coverage" NAME="connect_mysql Coverage Results" MODIFIED="1515579370122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/model" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_top9_case_py.coverage" NAME="Unittests in top9_case.py Coverage Results" MODIFIED="1514275828481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_baidu_case_py.coverage" NAME="Unittests in baidu_case.py Coverage Results" MODIFIED="1515056120920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$pppig_to_Find_Login_Password_Page.coverage" NAME="pppig_to_Find_Login_Password_Page Coverage Results" MODIFIED="1515489227841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
   </component>
   <component name="DockManager">
-    <window id="8">
+    <window id="9">
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="pppig_open_the_depository_page.py" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_open_the_depository_page.py">
+            <file leaf-file-name="txt.py" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/txt.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="354">
-                    <caret line="82" column="30" lean-forward="false" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="30" />
+                  <state relative-caret-position="750">
+                    <caret line="30" column="0" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="30" selection-end-column="0" />
                     <folding>
-                      <element signature="e#43#107#0" expanded="true" />
+                      <element signature="e#43#73#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -65,17 +71,18 @@
         </state>
       </content>
     </window>
-    <window id="7">
+    <window id="11">
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="pppig_goRegister_page.py" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_goRegister_page.py">
+            <file leaf-file-name="pppig_to_Find_Login_Password_case.py" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_to_Find_Login_Password_case.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="981">
-                    <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+                  <state relative-caret-position="321">
+                    <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
                     <folding>
-                      <element signature="e#43#107#0" expanded="true" />
+                      <element signature="e#42#64#0" expanded="true" />
+                      <marker date="1515489212471" expanded="true" signature="540:660" ph="select valid... mobile_authen" />
                     </folding>
                   </state>
                 </provider>
@@ -91,22 +98,31 @@
       <file leaf-file-name="login_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-957">
-              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="2320">
+              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <folding>
+                <element signature="e#43#107#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wait.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/wait.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pppig_register_case.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_case.py">
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="742">
-              <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-              <folding>
-                <element signature="e#42#64#0" expanded="true" />
-                <marker date="1515556348021" expanded="true" signature="637:757" ph="select valid... mobile_authen" />
-              </folding>
+            <state relative-caret-position="477">
+              <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,19 +130,53 @@
       <file leaf-file-name="myunit.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/myunit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="272">
               <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pppig_login_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py">
+      <file leaf-file-name="login1_ccase.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login1_ccase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="31" column="63" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="231">
+              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+              <folding>
+                <element signature="e#42#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="driver.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/driver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="13" column="65" lean-forward="true" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_all_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_programe/run_all_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-433">
+              <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connect_mysql.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/connect_mysql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="69" column="57" lean-forward="false" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="57" />
+              <folding>
+                <marker date="1515579368958" expanded="true" signature="1635:1714" ph="SELECT * FRO... user_main" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,8 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/function.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/home_page_case.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/home_page.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/homepage_case.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/geckodriver.log" />
@@ -177,7 +225,6 @@
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_important_notice_page.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_register_page.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_important_notice_case.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppiglogin_case.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_to_invest.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppigproduct_details_page.py" />
@@ -188,15 +235,18 @@
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/login_ccase.py" />
         <option value="$PROJECT_DIR$/Po/Testcases/Test_bd.py" />
         <option value="$PROJECT_DIR$/test_programe/run_all_test.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/connect_mysql.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_page.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_to_Find_Login_Password_case.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_to_Find_Login_Password_Page.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/wait.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_goRegister_page.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_open_the_depository_page.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_case.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/txt.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/login1_ccase.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/connect_mysql.py" />
       </list>
     </option>
   </component>
@@ -311,20 +361,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in pppig_register_case.py">
-    <configuration name="Unittests in Test_bd.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.connect_mysql">
+    <configuration name="Unittests in login1_ccase.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Po/Testcases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_programe/mail/test_case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="sublimePython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Po/Testcases/Test_bd.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_programe/mail/test_case/login1_ccase.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Unittests in pppig_register_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -342,20 +392,20 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_case.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="pppig_to_Find_Login_Password_Page" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="connect_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_programe/mail/test_case/model" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="sublimePython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_to_Find_Login_Password_Page.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_programe/mail/test_case/model/connect_mysql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -378,38 +428,38 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="run_all_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="txt" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_programe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_programe/mail/test_case/model" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="sublimePython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_programe/run_all_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_programe/mail/test_case/model/txt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Test_bd.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python.run_all_test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.pppig_to_Find_Login_Password_case" />
-      <item index="3" class="java.lang.String" itemvalue="Python.pppig_to_Find_Login_Password_Page" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_register_case.py" />
+      <item index="0" class="java.lang.String" itemvalue="Python.pppig_to_Find_Login_Password_case" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_register_case.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.connect_mysql" />
+      <item index="3" class="java.lang.String" itemvalue="Python.txt" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in login1_ccase.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_register_case.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.pppig_to_Find_Login_Password_case" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pppig_to_Find_Login_Password_Page" />
-        <item index="3" class="java.lang.String" itemvalue="Python.run_all_test" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in Test_bd.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python.connect_mysql" />
+        <item index="1" class="java.lang.String" itemvalue="Python.txt" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in login1_ccase.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_register_case.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python.pppig_to_Find_Login_Password_case" />
       </list>
     </recent_temporary>
   </component>
@@ -567,16 +617,17 @@
       <option name="project" value="LOCAL" />
       <updated>1515555429714</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Opendepository1">
+      <created>1515556589649</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1515556589649</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_login_ccase_py - 2018.01.05 at 16h 01m 07s.xml">
-      <configuration name="Unittests in login_ccase.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_login_ccase_py - 2018.01.05 at 16h 21m 48s.xml">
-      <configuration name="Unittests in login_ccase.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_login_ccase_py - 2018.01.05 at 16h 27m 41s.xml">
       <configuration name="Unittests in login_ccase.py" configurationId="tests" />
     </history-entry>
@@ -601,21 +652,28 @@
     <history-entry file="Unittests_in_pppig_register_case_py - 2018.01.10 at 11h 54m 03s.xml">
       <configuration name="Unittests in pppig_register_case.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_pppig_register_case_py - 2018.01.10 at 14h 17m 25s.xml">
+      <configuration name="Unittests in pppig_register_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_pppig_register_case_py - 2018.01.10 at 14h 19m 10s.xml">
+      <configuration name="Unittests in pppig_register_case.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20364584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44852942" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44852942" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40231094" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24894957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -665,7 +723,8 @@
     <MESSAGE value="add wait" />
     <MESSAGE value="register page" />
     <MESSAGE value="Opendepository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Opendepository" />
+    <MESSAGE value="Opendepository1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opendepository1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -688,29 +747,15 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="39" />
+      <option name="time" value="51" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pymysql/err.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pymysql/cursors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-283">
           <caret line="507" column="0" lean-forward="true" selection-start-line="507" selection-start-column="0" selection-end-line="507" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/excel_table_byindex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -786,13 +831,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/baidu_case.py" />
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/baidu_page.py" />
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="13" column="65" lean-forward="true" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/mail_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -840,23 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/run_all_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/connect_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934">
-          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-          <folding>
-            <marker date="1515486524659" expanded="true" signature="1486:1536" ph="SELECT * FRO... user_main" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_important_notice_case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -868,13 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-518">
           <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login_ccase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="58" column="54" lean-forward="false" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -922,64 +936,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login1_ccase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/wait.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#43#104#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_important_notice_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="12" column="64" lean-forward="true" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppiglogin_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_to_Find_Login_Password_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="17" column="150" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="150" />
-          <folding>
-            <element signature="e#42#64#0" expanded="true" />
-            <marker date="1515489212471" expanded="true" signature="540:660" ph="select valid... mobile_authen" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -999,40 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/myunit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="31" column="63" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-957">
-          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_goRegister_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="981">
-          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding>
-            <element signature="e#43#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_open_the_depository_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
@@ -1043,13 +970,154 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_goRegister_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#107#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        <state relative-caret-position="379">
+          <caret line="25" column="97" lean-forward="false" selection-start-line="25" selection-start-column="97" selection-end-line="25" selection-end-column="97" />
           <folding>
             <element signature="e#42#64#0" expanded="true" />
-            <marker date="1515556348021" expanded="true" signature="637:757" ph="select valid... mobile_authen" />
+            <marker date="1515565004774" expanded="true" signature="637:757" ph="select valid... mobile_authen" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login_ccase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="58" column="54" lean-forward="false" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppiglogin_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/excel_table_byindex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/run_all_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-433">
+          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/myunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="13" column="65" lean-forward="true" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2320">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_to_Find_Login_Password_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#42#64#0" expanded="true" />
+            <marker date="1515489212471" expanded="true" signature="540:660" ph="select valid... mobile_authen" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/txt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login1_ccase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="e#42#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/connect_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="69" column="57" lean-forward="false" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="57" />
+          <folding>
+            <marker date="1515579368958" expanded="true" signature="1635:1714" ph="SELECT * FRO... user_main" />
           </folding>
         </state>
       </provider>

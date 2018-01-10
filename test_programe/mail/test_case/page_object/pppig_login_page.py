@@ -6,6 +6,7 @@ from time import sleep
 from pppig_page import Page
 from model import *
 from selenium import webdriver
+import codecs
 
 #页面对象（PO）登录页面
 class LoginPage(Page):
@@ -41,3 +42,21 @@ class LoginPage(Page):
         self.pppiglogin_password(password)
         self.pppiglogin_button()
 
+    """
+    def reader_txt(self, address):
+        fp = codecs.open(address, 'r', "gb18030")
+        # fp=open(address,'r')
+        users = []
+        pwds = []
+        lines = fp.readlines()
+        for data in lines:
+            name, pwd = data.split(',')
+            name = name.strip(' \t\r\n')
+            pwd = pwd.strip(' \t\r\n')
+            users.append(name)
+            pwds.append(pwd)
+            print("user:%s(len(%d))" % (name, len(name)))
+            print("pwd:%s(len(%d))" % (pwd, len(pwd)))
+        return users, pwds
+        # fp.close()
+    """
