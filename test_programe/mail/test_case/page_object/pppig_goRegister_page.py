@@ -63,19 +63,19 @@ class GoRegister(Page):
 		self.find_element(*self.pppiggoregister_message_checkCode_text).send_keys(text)
 
 	# 推荐人邀请码点击
-	def pppiggoregister_referral_invitation_code_button (self):
+	def pppiggoregister_Referral_invitation_code_button (self):
 		self.find_element(*self.pppiggoregister_referral_invitation_code_button_text).click()
 
 	# 邀请号
-	def pppiggoregister_invite_number (self, text):
+	def pppiggoregister_Invite_number (self, text):
 		self.find_element(*self.pppiggoregister_invite_number_text ).send_keys(text)
 
 	# 同意协议
-	def pppiggoregister_agreement(self):
+	def pppiggoregister_Agreement(self):
 		self.find_element(*self.pppiggoregister_agreement_text).click()
 
 	# 注册按钮
-	def pppiggoregister_button(self):
+	def pppiggoregister_Button(self):
 		self.find_element(*self.pppiggoregister_button_text).click()
 
 	# 无邀请码点击获取验证码
@@ -89,8 +89,8 @@ class GoRegister(Page):
 		# 无邀请码验证码
 	def goregisternoinvite2_Action(self, checkCode):
 			self.pppiggoregister_Message_CheckCode(checkCode)
-			self.pppiggoregister_agreement()
-			self.pppiggoregister_button()
+			self.pppiggoregister_Agreement()
+			self.pppiggoregister_Button()
 
 	# 无邀请码
 	def goregisternoinvite_Action(self, mobilePhone, password, checkTuCode, checkCode,):
@@ -100,8 +100,8 @@ class GoRegister(Page):
 		self.pppiggoregister_CheckTuCode(checkTuCode)
 		self.pppiggoregister_GetCodeButton()
 		self.pppiggoregister_Message_CheckCode(checkCode)
-		self.pppiggoregister_agreement()
-		self.pppiggoregister_button()
+		self.pppiggoregister_Agreement()
+		self.pppiggoregister_Button()
 
 	# 有邀请码
 	def goregisterinvite_Action(self, mobilePhone, password, checkTuCode, checkCode, invitenumber):
