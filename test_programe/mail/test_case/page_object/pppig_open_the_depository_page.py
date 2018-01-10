@@ -90,4 +90,4 @@ class Opendepository(Page):
         self.pppigopendepository_Jx_getcode_button()
         self.pppigopendepository_Jx_message_checkcode(checkcode)
         self.pppigopendepository_Jx_agreement()
-        self.pppigopendepository_Jx_agree
+        self.pppigopendepository_Jx_agree()
