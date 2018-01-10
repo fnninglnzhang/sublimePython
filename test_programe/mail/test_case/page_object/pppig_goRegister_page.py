@@ -78,6 +78,20 @@ class GoRegister(Page):
 	def pppiggoregister_button(self):
 		self.find_element(*self.pppiggoregister_button_text).click()
 
+	# 无邀请码点击获取验证码
+	def goregisternoinvite1_Action(self, mobilePhone, password, checkTuCode):
+		self.pppiggoregister_User_Role1()
+		self.pppiggoregister_MobilePhone(mobilePhone)
+		self.pppiggoregister_Password(password)
+		self.pppiggoregister_CheckTuCode(checkTuCode)
+		self.pppiggoregister_GetCodeButton()
+
+		# 无邀请码验证码
+	def goregisternoinvite2_Action(self, checkCode):
+			self.pppiggoregister_Message_CheckCode(checkCode)
+			self.pppiggoregister_agreement()
+			self.pppiggoregister_button()
+
 	# 无邀请码
 	def goregisternoinvite_Action(self, mobilePhone, password, checkTuCode, checkCode,):
 		self.pppiggoregister_User_Role1()

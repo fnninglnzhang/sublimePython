@@ -12,13 +12,14 @@ from model.connect_mysql import *
 class RegisterTest(myunit.MyTest):
 
     def test_register_success(self):
-        '''用户名、密码正确,登录成功'''
+        '''注册'''
         poRegister = GoRegister(self.driver)
         sleep(2)
         poRegistercode = SelectMySQL()
         poRegister.open()
+        poRegister.goregisternoinvite1_Action("13011111118", "111111", "1111")
         checkCode = poRegistercode.select_Data("select validCode from mobile_authen where mobile=13011111118 and mobileAuthenid>3399000 ORDER BY sendTime desc limit 0,1")
-        poRegister.goregisternoinvite_Action("13011111118", "111111", "1111", checkCode)
+        poRegister.goregisternoinvite2_Action(checkCode)
         sleep(2)
 
 
