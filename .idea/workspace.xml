@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e52a6c4c-974f-4bb8-9ec5-510bcd75c829" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/model/txt.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/login1_ccase.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/login1_ccase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/model/connect_mysql.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/model/connect_mysql.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_case.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/model/txt.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/model/txt.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,8 +53,8 @@
             <file leaf-file-name="txt.py" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/txt.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="750">
-                    <caret line="30" column="0" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="30" selection-end-column="0" />
+                  <state relative-caret-position="234">
+                    <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
                     <folding>
                       <element signature="e#43#73#0" expanded="true" />
                     </folding>
@@ -172,8 +167,8 @@
       <file leaf-file-name="connect_mysql.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/connect_mysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="69" column="57" lean-forward="false" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="57" />
+            <state relative-caret-position="244">
+              <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
               <folding>
                 <marker date="1515579368958" expanded="true" signature="1635:1714" ph="SELECT * FRO... user_main" />
               </folding>
@@ -244,9 +239,9 @@
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_case.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/txt.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/login1_ccase.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/connect_mysql.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/txt.py" />
       </list>
     </option>
   </component>
@@ -624,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515556589649</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="sql优化">
+      <created>1515579429529</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1515579429529</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -669,7 +671,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44852942" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44852942" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -724,7 +726,8 @@
     <MESSAGE value="register page" />
     <MESSAGE value="Opendepository" />
     <MESSAGE value="Opendepository1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Opendepository1" />
+    <MESSAGE value="sql优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -965,7 +968,7 @@
         <state relative-caret-position="354">
           <caret line="82" column="30" lean-forward="false" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="30" />
           <folding>
-            <element signature="e#43#107#0" expanded="true" />
+            <element signature="e#43#107#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1092,16 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/txt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#43#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login1_ccase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1112,10 +1105,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/txt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="e#43#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/connect_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="69" column="57" lean-forward="false" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="57" />
+        <state relative-caret-position="244">
+          <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
           <folding>
             <marker date="1515579368958" expanded="true" signature="1635:1714" ph="SELECT * FRO... user_main" />
           </folding>
