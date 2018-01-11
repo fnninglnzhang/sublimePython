@@ -38,4 +38,14 @@ for line in lines:
 #类似这样就行，账号密码一个一行，用逗号分开就行
 
 
+f = open('D:\\1.txt')
+lines=f.readlines()
+for line in lines:
+        username=line.split(',')[0]
+        password=line.split(',')[1]
+        在for循环内执行登录等等操作
+#类似这样就行，账号密码一个一行，用逗号分开就行
+
+
+
 """

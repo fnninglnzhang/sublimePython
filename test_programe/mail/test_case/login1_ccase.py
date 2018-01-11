@@ -14,19 +14,21 @@ class LoginTest(myunit.MyTest):
 
     def test_login_success(self):
         '''用户名、密码正确,登录成功'''
-        po = LoginPage(self.driver)
-        sleep(5)
-        po.open()
-        po1 = Reader_txt()
-        po1.reader_Txt_Date('D:\\name.txt')
-        user = '1'
-        pwd = '2'
-        po.pppiglogin_Action(user, pwd)
-        sleep(2)
-        po2 = To_login(self.driver)
-        print(po2.login_success_user())
-        # self.assertEqual(po2.login_success_user(),username)
-        function.insert_img(self.driver, "success.png")
+        f = open('D:\\name.txt')
+        lines = f.readlines()
+        for line in lines:
+            username = line.split(',')[0]
+            password = line.split(',')[1]
+            po = LoginPage(self.driver)
+            sleep(5)
+            po.open()
+
+            po.pppiglogin_Action(username, password)
+            sleep(2)
+            po2 = To_login(self.driver)
+            print(po2.login_success_user())
+            # self.assertEqual(po2.login_success_user(),username)
+            function.insert_img(self.driver, "success.png")
 
 
 # 用于验证该脚本是否有效
