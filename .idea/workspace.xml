@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e52a6c4c-974f-4bb8-9ec5-510bcd75c829" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_programe/mail/date/name.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/login1_ccase.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/login1_ccase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_debt_cession_ccase.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_debt_cession_ccase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppiglogin_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppiglogin_case.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -625,7 +620,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515647115102</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="参数化">
+      <created>1515663821019</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1515663821019</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -727,7 +729,8 @@
     <MESSAGE value="Opendepository1" />
     <MESSAGE value="sql优化" />
     <MESSAGE value="债权转让" />
-    <option name="LAST_COMMIT_MESSAGE" value="债权转让" />
+    <MESSAGE value="参数化" />
+    <option name="LAST_COMMIT_MESSAGE" value="参数化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
