@@ -22,7 +22,7 @@ class To_investdebtcessionTest(myunit.MyTest):
         po_debtcession.pppiginvestdebtcession_Action1()
         sleep(3)
         po_debtcession.pppiginvestdebtcession_Action2()
-        sleep(2)
+        sleep(3)
         po_debtcession.pppiginvestdebtcession_Action3('111111')
 
 
