@@ -22,12 +22,6 @@ class To_investTest(myunit.MyTest):
         # po1.pppiginvest_Action("200", "1111", "111111")
         po1.pppiginvest_Action1()
         sleep(2)
-        """
-        po2 = Product_details(self.driver)
-        sleep(2)
-        po2.product_Details_Action("200")
-        sleep(2)
-        """
         po1.pppiginvest_Action2("300")
         sleep(2)
         po1.pppiginvest_Action3("1111")
