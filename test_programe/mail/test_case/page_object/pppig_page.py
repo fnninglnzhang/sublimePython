@@ -23,6 +23,11 @@ class Page(object):
 		sleep(2)
 		assert self.driver.current_url == url_a, 'Did ont land on %s' % url_a
 
+	def open_R(self, url_invest):
+		url_I = self.base_url + url_invest
+		self.driver.get(url_I)
+
+
 	def open(self):
 		self._open(self.url)
 

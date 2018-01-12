@@ -49,9 +49,15 @@ class LoginPage(Page):
     def pppiglogin3_Action(self):                                              # 点击登录
         self.pppiglogin_button()
 
+    # 登入不退出
+    def pppiglogin_noclose_Action(self, username, password):
+        self.pppig_click_topassword()
+        self.pppiglogin_username(username)
+        self.pppiglogin_password(password)
+        self.pppiglogin_button()
 
-
-    def pppiglogin_Action(self, username, password):
+     # 有退出操作的登陆
+    def pppiglogin_close_Action(self, username, password):
         self.pppig_click_topassword()
         self.pppiglogin_username(username)
         self.pppiglogin_password(password)

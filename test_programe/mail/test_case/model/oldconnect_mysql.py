@@ -32,22 +32,6 @@ class SelectMySQL(object):
 		# return result
 		return alldata
 
-	def update_insert_Data(self,sql):
-		try:
-			conn = MySQLdb.connect(host=host, port=port, user=user, passwd=passwd, db=db,  charset='utf8',)
-			cursor = conn.cursor()
-			try:
-				cursor.execute(sql)
-				conn.commit()
-				print("数据更新或插入成功")
-			except:
-				# 发生错误时回滚
-				conn.rollback()
-		except Exception as e:
-			print('Error msg: ' + e)
-		finally:
-			conn.close()
-
 	def get_Result(self, sql, filename, tupleNum):
 	# def get_Result(self, sql, filename):
 		print(sql)

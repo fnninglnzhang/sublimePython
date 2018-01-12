@@ -4,7 +4,7 @@ from time import sleep
 import unittest, random, sys
 from model import myunit, function
 from page_object.pppig_to_Find_Login_Password_Page import ForgetPWD
-from model.connect_mysql import *
+from model.oldconnect_mysql import *
 
 class FindPWD(myunit.MyTest):
 # class FindPWD(ForgetPWD, SelectMySQL):

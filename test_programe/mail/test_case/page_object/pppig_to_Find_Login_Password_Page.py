@@ -3,7 +3,7 @@
 from selenium.webdriver.common.by import By
 from time import sleep
 from pppig_page import Page
-from model.connect_mysql import *
+from model.oldconnect_mysql import *
 
 class ForgetPWD(Page):
 

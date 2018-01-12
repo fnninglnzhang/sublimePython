@@ -5,7 +5,7 @@ import unittest, random, sys
 from model import myunit, function
 from page_object.pppig_goRegister_page import GoRegister
 from page_object.pppig_open_the_depository_page import Opendepository
-from model.connect_mysql import *
+from model.oldconnect_mysql import *
 
 
 
