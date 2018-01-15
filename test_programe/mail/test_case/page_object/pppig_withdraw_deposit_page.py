@@ -41,5 +41,6 @@ class Withdraw_Deposit(Page):
         self.find_element(*self.pppigeenter_the_unionpay_card_number_text).send_keys(text)
     # 提交申请
 	def pppigsubmit_applications_button(self):
-        return self.find_element(*self.pppigsubmit_applications_button_text).click()
+        self.find_element(*self.pppigsubmit_applications_button_text).click()
+
 
