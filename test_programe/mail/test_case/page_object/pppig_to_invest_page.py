@@ -16,6 +16,9 @@ class To_invest(Page):
 	pppigbuy_it_now_text = (By.XPATH, ".//*[@id='listform']/div[1]/div[2]/div[3]/div[1]/div[2]/span[2]")
 	# 投资金额
 	pppiginvestment_Amount_text = (By.ID, 'sideInput')
+	# 余额全投
+	pppigbalance_of_the_whole_cast_text = (By.XPATH, "html/body/div[5]/div[2]/div[1]/div[2]/div[3]/div[2]/input[4]")
+
 	# 去选择红包和加息券
 	pppiguse_car_text = (By.ID, 'hongbaojiaxi')
 
@@ -57,6 +60,11 @@ class To_invest(Page):
 	# 投资金额
 	def pppiginvestment_Amount(self, text):
 		self.find_element(*self.pppiginvestment_Amount_text).send_keys(text)
+
+	# 余额全投
+	def pppigbalance_of_the_whole_cast(self):
+		self.find_element(*self.pppigbalance_of_the_whole_cast_text).click()
+
 
 	# 去选择红包和加息券
 	def pppiguse_card(self):
@@ -122,7 +130,7 @@ class To_invest(Page):
 		self.pppigjx_Transaction_password(jx_transaction_password)
 		self.pppigmake_Sure_jx_transaction_password_button()
 
-	# 我要出借-出借债券_立即投标
+	# 我要出借->出借债券->立即投标
 	def pppiginvest_Action1(self):
 		self.pppig_To_invest()
 		self.pppigon_Sale_investment()
@@ -152,10 +160,25 @@ class To_invest(Page):
 		self.pppigenteruse_coupon()
 		self.pppiginvestment_Amount_button()
 
-
-	# 使用加息券
+	# 投资金额——使用加息券——即刻投资
 	def pppiguse_ratecoupon_Invest_Action(self, text):
 		self.pppiginvestment_Amount(text)
+		self.pppiguse_card()
+		self.pppiguse_rate_coupon()
+		self.pppigenteruse_coupon()
+		self.pppiginvestment_Amount_button()
+
+	# 余额全投——使用红包——即刻投资
+	def pppiguse_Redpacket_Invest_All_Action(self):
+		self.pppigbalance_of_the_whole_cast()
+		self.pppiguse_card()
+		self.pppiguse_red_packet()
+		self.pppigenteruse_coupon()
+		self.pppiginvestment_Amount_button()
+
+	# 余额全投——使用红包——即刻投资
+	def pppiguse_Rate_Coupon_Invest_All_Action(self):
+		self.pppigbalance_of_the_whole_cast()
 		self.pppiguse_card()
 		self.pppiguse_rate_coupon()
 		self.pppigenteruse_coupon()

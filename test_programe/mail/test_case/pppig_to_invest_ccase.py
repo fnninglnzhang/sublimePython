@@ -16,7 +16,7 @@ class To_investTest(myunit.MyTest):
         po = LoginPage(self.driver)
         sleep(2)
         po.open()
-        po.pppiglogin_Action("13011111101", "111111")
+        po.pppiglogin_noclose_Action("13011111101", "111111")
         sleep(3)
         po1 = To_invest(self.driver)
         # po1.pppiginvest_Action("200", "1111", "111111")

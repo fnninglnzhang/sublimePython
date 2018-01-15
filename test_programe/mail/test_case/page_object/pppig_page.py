@@ -20,7 +20,7 @@ class Page(object):
 		url_a = self.base_url + url
 		self.driver.maximize_window()
 		self.driver.get(url_a)
-		sleep(2)
+		# sleep(2)
 		assert self.driver.current_url == url_a, 'Did ont land on %s' % url_a
 
 	def open_R(self, url_invest):
