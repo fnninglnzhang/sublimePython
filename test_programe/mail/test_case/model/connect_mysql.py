@@ -77,7 +77,7 @@ def get_Result(self, sql):
 
 
 
-
+"""
 # 用于验证该脚本
 if __name__ == '__main__':
 	sql = "SELECT userId,nickName,email,userCode FROM user_main WHERE mobile = 13011111103"
@@ -85,3 +85,4 @@ if __name__ == '__main__':
 	# 文件保存路径
 	result1 = select.get_Result(sql, 'D:\\namemsg.txt', 0)
 	print(result1)
+"""

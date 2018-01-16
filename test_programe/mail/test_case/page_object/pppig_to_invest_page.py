@@ -176,7 +176,7 @@ class To_invest(Page):
 		self.pppigenteruse_coupon()
 		self.pppiginvestment_Amount_button()
 
-	# 余额全投——使用红包——即刻投资
+	# 余额全投——使用加息券——即刻投资
 	def pppiguse_Rate_Coupon_Invest_All_Action(self):
 		self.pppigbalance_of_the_whole_cast()
 		self.pppiguse_card()

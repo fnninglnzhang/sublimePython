@@ -25,8 +25,4 @@ class RegisterTest(myunit.MyTest):
         sleep(2)
         poopendepository.opendepository2_Action("李测试账户五", "310101199207230627", "3005294647733520", "111111")
 
-
-        sleep(2)
-
-
         function.insert_img(self.driver, "success.png")
