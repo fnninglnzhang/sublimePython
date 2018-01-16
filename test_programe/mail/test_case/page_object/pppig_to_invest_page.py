@@ -5,8 +5,10 @@ from selenium.webdriver.common.by import By
 from time import sleep
 from pppig_page import Page
 from selenium import webdriver
+from page_object.pppig_login_page import LoginPage
 
 class To_invest(Page):
+# class To_invest(Page, LoginPage):
 	# url = '/recommendloanDetail?loanId=35416'
 	# 我要出借
 	pppigI_want_to_invest_text = (By.XPATH, ".//*[@id='munue_2']/a")
@@ -182,4 +184,9 @@ class To_invest(Page):
 		self.pppiguse_card()
 		self.pppiguse_rate_coupon()
 		self.pppigenteruse_coupon()
+		self.pppiginvestment_Amount_button()
+
+	# 不使用卡券投资
+	def pppiguse_no_Coupon_Invest_Action(self, text):
+		self.pppiginvestment_Amount(text)
 		self.pppiginvestment_Amount_button()
