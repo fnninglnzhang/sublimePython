@@ -13,18 +13,13 @@ class LoginTest(myunit.MyTest):
 
     def test_login_success(self):
         '''参数化、用户名、密码正确,登录成功'''
-        # try:
         po = LoginPage(self.driver)
-        # sleep(1)
         po.open()
-        po.pppiglogin_close_Action('18873692049', '111111')
-        sleep(2)
-        poset_transaction_password = SetTransactionPWD(self.driver)
-        sleep(2)
-        poset_transaction_password.pppigset_Transaction_password_Action('111111', '111111')
         sleep(5)
-        # except BaseException as e:
-        #     print(e)
+        self.assertEqual(u'登录', po.pppigabout_us())
+        po.pppiglogin_close_Action('13011111101', '111111')
+        sleep(3)
+
 
 
 

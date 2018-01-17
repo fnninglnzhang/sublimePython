@@ -83,7 +83,8 @@ class Opendepository(Page):
 
     # 开户成功    用于断言开户成功
     def pppigsuccessful_Opening_an_account(self):
-        return self.find_element(*self.pppigsuccessful_opening_an_account_text)
+        return self.find_element(*self.pppigsuccessful_opening_an_account_text).text
+
 
     # 前往我的账户
     def pppigto_Go_myaccount(self):

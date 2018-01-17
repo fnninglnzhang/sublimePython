@@ -3,12 +3,11 @@
 from time import sleep
 import unittest, random, sys
 from model import myunit, function
+from page_object.pppig_login_page import LoginPage
 from page_object.pppig_goRegister_page import GoRegister
 from page_object.pppig_open_the_depository_page import Opendepository
 from page_object.pppig_set_transaction_password_page import SetTransactionPWD
 from model.oldconnect_mysql import *
-
-
 
 class RegisterTest(myunit.MyTest):
 
@@ -49,14 +48,20 @@ class RegisterTest(myunit.MyTest):
                 poset_transaction_password = SetTransactionPWD(self.driver)
                 sleep(2)
                 poset_transaction_password.pppigset_Transaction_password_Action('111111', '111111')
-                sleep(5)
+                sleep(10)
+                pologout = LoginPage(self.driver)
+                pologout.pppiglogin_close_Action(username, password)
+                pologout.pppiglogin_close_button()
         except BaseException as e:
             print(e)
 
+# 用于验证该脚本是否有效
+if __name__ == "__main__":
+    unittest.main()
 
 
 
 
 
 
-        function.insert_img(self.driver, "success.png")
+
