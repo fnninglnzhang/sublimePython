@@ -31,7 +31,10 @@ class Opendepository(Page):
     pppigopendepository_jx_agreement_text = (By.ID, "agreement")
     # 开通银行账户立即开通
     pppigopendepository_jx_agree_text = (By.ID, "KH_button")
-
+    # 开户成功    用于断言开户成功
+    pppigsuccessful_opening_an_account_text = (By.XPATH, "html/body/div[4]/div/div/h2")
+    # 前往我的账户
+    pppigto_Go_myaccount_text = (By.XPATH, "html/body/div[4]/div/div/a[2]")
 
     # 把每一个元素封装成一个方法
     # 立即开通银行存管
@@ -78,10 +81,18 @@ class Opendepository(Page):
     def pppigopendepository_Jx_agree(self):
         self.find_element(*self.pppigopendepository_jx_agree_text).click()
 
+    # 开户成功    用于断言开户成功
+    def pppigsuccessful_Opening_an_account(self):
+        return self.find_element(*self.pppigsuccessful_opening_an_account_text)
+
+    # 前往我的账户
+    def pppigto_Go_myaccount(self):
+        self.find_element(*self.pppigto_Go_myaccount_text).click()
 
 
     def opendepository1_Action(self):
         self.pppigopendepository_Btn()
+
 
     def opendepository2_Action(self, realname, idnumber, bankcard, checkcode):
         self.pppigopendepository_Jx_real_name(realname)

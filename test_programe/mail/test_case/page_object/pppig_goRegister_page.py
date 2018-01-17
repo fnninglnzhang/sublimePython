@@ -86,7 +86,7 @@ class GoRegister(Page):
 		self.pppiggoregister_CheckTuCode(checkTuCode)
 		self.pppiggoregister_GetCodeButton()
 
-		# 无邀请码验证码
+	# 无邀请码验证码
 	def goregisternoinvite2_Action(self, checkCode):
 			self.pppiggoregister_Message_CheckCode(checkCode)
 			self.pppiggoregister_Agreement()
