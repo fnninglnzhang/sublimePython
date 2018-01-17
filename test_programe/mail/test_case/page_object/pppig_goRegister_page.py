@@ -90,6 +90,7 @@ class GoRegister(Page):
 	def goregisternoinvite2_Action(self, checkCode):
 			self.pppiggoregister_Message_CheckCode(checkCode)
 			self.pppiggoregister_Agreement()
+			# sleep(2)                                                 # 注册可能出现问题，强制等待两秒    直接关浏览器了，不好用
 			self.pppiggoregister_Button()
 
 	# 无邀请码

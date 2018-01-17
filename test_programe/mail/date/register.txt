@@ -1,2 +1,1 @@
-13011111125,111111,"select validCode from mobile_authen where mobile=13011111125 and mobileAuthenid>3399000 ORDER BY sendTime desc limit 0,1"
-13011111126,111111,"select validCode from mobile_authen where mobile=13011111126 and mobileAuthenid>3399000 ORDER BY sendTime desc limit 0,1"
+13011111129,111111,李测试账户七,310101198903029076,6226183529204451
