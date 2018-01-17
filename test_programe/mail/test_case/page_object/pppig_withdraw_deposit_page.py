@@ -7,7 +7,7 @@ from pppig_page import Page
 from page_object.jx_transaction_password_page import Jx_Transaction_Password
 
 
-#页面对象（PO）登录页面
+# 提现的类
 class Withdraw_Deposit(Page):
 	url = '/rechargeUI#withdraw'
 	# 我的账户
