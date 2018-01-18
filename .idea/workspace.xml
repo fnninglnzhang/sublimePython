@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e52a6c4c-974f-4bb8-9ec5-510bcd75c829" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_to_user_answer_page.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_to_user_answer_case.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_parametric_ccase.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_parametric_ccase.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/test_case.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/assertequal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/login1_ccase.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/login_ccase.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/test_invest_case.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/date/register.txt" afterPath="$PROJECT_DIR$/test_programe/mail/date/register.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_recharge_page.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_recharge_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_to_user_answer_page.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_to_user_answer_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_withdraw_deposit_page.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_withdraw_deposit_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_case.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_realname_setpwd_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_realname_setpwd_case.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_to_user_answer_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_to_user_answer_case.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_usecoupon_invest_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_usecoupon_invest_case.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_important_notice_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_important_notice_ccase.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +31,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_login1_ccase_py.coverage" NAME="Unittests in login1_ccase.py Coverage Results" MODIFIED="1515663662506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_top9_ccase_py.coverage" NAME="Unittests in top9_ccase.py Coverage Results" MODIFIED="1516256984433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_wethdraw_deposit_ccase_py.coverage" NAME="Unittests in pppig_wethdraw_deposit_ccase.py Coverage Results" MODIFIED="1515992921092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$login_page.coverage" NAME="login_page Coverage Results" MODIFIED="1514861805401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_homepage_case_py.coverage" NAME="Unittests in homepage_case.py Coverage Results" MODIFIED="1514190914735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
@@ -23,13 +40,14 @@
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_login1_ccase_LoginTest_test_login_success.coverage" NAME="Unittests for login1_ccase.LoginTest.test_login_success Coverage Results" MODIFIED="1515662991290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_register_case_py.coverage" NAME="Unittests in pppig_register_case.py Coverage Results" MODIFIED="1515565109636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$loginbaidu.coverage" NAME="loginbaidu Coverage Results" MODIFIED="1513584985168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/demo1" />
-    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_register_realname_setpwd_case_py.coverage" NAME="Unittests in pppig_register_realname_setpwd_case.py Coverage Results" MODIFIED="1516175738582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_register_realname_setpwd_case_py.coverage" NAME="Unittests in pppig_register_realname_setpwd_case.py Coverage Results" MODIFIED="1516239309943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$pppig_login_page.coverage" NAME="pppig_login_page Coverage Results" MODIFIED="1515032807094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
     <SUITE FILE_PATH="coverage/sublimePython$top9_case.coverage" NAME="top9_case Coverage Results" MODIFIED="1514272247561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
-    <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_pppig_recharge_case_RechargeTest_test_login_success.coverage" NAME="Unittests for pppig_recharge_case.RechargeTest.test_login_success Coverage Results" MODIFIED="1516182785074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_pppig_recharge_case_RechargeTest_test_login_success.coverage" NAME="Unittests for pppig_recharge_case.RechargeTest.test_login_success Coverage Results" MODIFIED="1516237914920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_use_coupon_invest_case_py.coverage" NAME="Unittests in pppig_use_coupon_invest_case.py Coverage Results" MODIFIED="1515996066959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppiglogin_case_py.coverage" NAME="Unittests in pppiglogin_case.py Coverage Results" MODIFIED="1515113328147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_test_register_case_py.coverage" NAME="Unittests in test_register_case.py Coverage Results" MODIFIED="1516153859752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_to_user_answer_case_py.coverage" NAME="Unittests in pppig_to_user_answer_case.py Coverage Results" MODIFIED="1516253185133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_test_case_To_investTest_test_to_invest_success.coverage" NAME="Unittests for test_case.To_investTest.test_to_invest_success Coverage Results" MODIFIED="1515743549224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppigimportant_notice_case_py.coverage" NAME="Unittests in pppigimportant_notice_case.py Coverage Results" MODIFIED="1515052470636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$pppig_to_Find_Login_Password_case.coverage" NAME="pppig_to_Find_Login_Password_case Coverage Results" MODIFIED="1515489239427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
@@ -37,42 +55,48 @@
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_assertequal_LoginTest_test_login_success.coverage" NAME="Unittests for assertequal.LoginTest.test_login_success Coverage Results" MODIFIED="1516172408358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$txt.coverage" NAME="txt Coverage Results" MODIFIED="1515578397930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/model" />
     <SUITE FILE_PATH="coverage/sublimePython$connect_mysql.coverage" NAME="connect_mysql Coverage Results" MODIFIED="1515579370122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/model" />
+    <SUITE FILE_PATH="coverage/sublimePython$pppig_to_user_answer_page.coverage" NAME="pppig_to_user_answer_page Coverage Results" MODIFIED="1516246242427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_baidu_case_py.coverage" NAME="Unittests in baidu_case.py Coverage Results" MODIFIED="1515056120920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_pppig_recharge_parametric_ccase_RechargeTest_test_login_success.coverage" NAME="Unittests for pppig_recharge_parametric_ccase.RechargeTest.test_login_success Coverage Results" MODIFIED="1516260961250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$pppig_to_Find_Login_Password_Page.coverage" NAME="pppig_to_Find_Login_Password_Page Coverage Results" MODIFIED="1515489227841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
     <SUITE FILE_PATH="coverage/sublimePython$pppig_withdraw_deposit_page.coverage" NAME="pppig_withdraw_deposit_page Coverage Results" MODIFIED="1515985839876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_test_invest_case_py.coverage" NAME="Unittests in test_invest_case.py Coverage Results" MODIFIED="1516097189724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$pppig_to_invest_page.coverage" NAME="pppig_to_invest_page Coverage Results" MODIFIED="1516091843411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
-    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_important_notice_case_py.coverage" NAME="Unittests in pppig_important_notice_case.py Coverage Results" MODIFIED="1515112773192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_recharge_parametric_ccase_py.coverage" NAME="Unittests in pppig_recharge_parametric_ccase.py Coverage Results" MODIFIED="1516262359674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_important_notice_case_py.coverage" NAME="Unittests in pppig_important_notice_case.py Coverage Results" MODIFIED="1516259503331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_login_case_py.coverage" NAME="Unittests in pppiglogin_case.py Coverage Results" MODIFIED="1514878669183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_myunit_py.coverage" NAME="Unittests in myunit.py Coverage Results" MODIFIED="1513562939946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_debt_cession_ccase_py.coverage" NAME="Unittests in pppig_debt_cession_ccase.py Coverage Results" MODIFIED="1515647608625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$base.coverage" NAME="base Coverage Results" MODIFIED="1514533362551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_pppig_to_user_answer_case_pppigToUserAnswer_test_pppig_user_answer.coverage" NAME="Unittests for pppig_to_user_answer_case.pppigToUserAnswer.test_pppig_user_answer Coverage Results" MODIFIED="1516246362004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$run_all_test.coverage" NAME="run_all_test Coverage Results" MODIFIED="1515478776037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe" />
     <SUITE FILE_PATH="coverage/sublimePython$home_page.coverage" NAME="home_page Coverage Results" MODIFIED="1513847118511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_login_ccase_py.coverage" NAME="Unittests in login_ccase.py Coverage Results" MODIFIED="1515142723426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_Test_bd_py.coverage" NAME="Unittests in Test_bd.py Coverage Results" MODIFIED="1515144540947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Po/Testcases" />
-    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_login_case_py.coverage" NAME="Unittests in pppig_login_case.py Coverage Results" MODIFIED="1516175157119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_login_case_py.coverage" NAME="Unittests in pppig_login_case.py Coverage Results" MODIFIED="1516258890905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Start_home_page.coverage" NAME="Start_home_page Coverage Results" MODIFIED="1513583520302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/write" />
     <SUITE FILE_PATH="coverage/sublimePython$function.coverage" NAME="function Coverage Results" MODIFIED="1516081363386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/model" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_to_invest_case_py.coverage" NAME="Unittests in pppig_to_invest_case.py Coverage Results" MODIFIED="1515132419896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_login_set_transaction_pwd_py.coverage" NAME="Unittests in assertequal.py Coverage Results" MODIFIED="1516171662148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppigregister_case_py.coverage" NAME="Unittests in pppigregister_case.py Coverage Results" MODIFIED="1514967322236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
-    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_test_case_py.coverage" NAME="Unittests in test_case.py Coverage Results" MODIFIED="1516087886664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_test_case_py.coverage" NAME="Unittests in test_case.py Coverage Results" MODIFIED="1516267416196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$login.coverage" NAME="login Coverage Results" MODIFIED="1513584279552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/demo1" />
-    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_recharge_case_py.coverage" NAME="Unittests in pppig_recharge_case.py Coverage Results" MODIFIED="1516183693559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_recharge_case_py.coverage" NAME="Unittests in pppig_recharge_case.py Coverage Results" MODIFIED="1516262988609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$test.coverage" NAME="test Coverage Results" MODIFIED="1514877250716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/work/python" />
     <SUITE FILE_PATH="coverage/sublimePython$assertequal.coverage" NAME="assertequal Coverage Results" MODIFIED="1516172180321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_test_invest_case_RechargeTest_test_login_success.coverage" NAME="Unittests for test_invest_case.RechargeTest.test_login_success Coverage Results" MODIFIED="1516264738888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_top9_case_py.coverage" NAME="Unittests in top9_case.py Coverage Results" MODIFIED="1514275828481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_usecoupon_invest_case_py.coverage" NAME="Unittests in pppig_usecoupon_invest_case.py Coverage Results" MODIFIED="1516092691327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_pppig_login_case_LoginTest_test_login_success.coverage" NAME="Unittests for pppig_login_case.LoginTest.test_login_success Coverage Results" MODIFIED="1516259044600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$pppig_debt_cession_page.coverage" NAME="pppig_debt_cession_page Coverage Results" MODIFIED="1515642232602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pppig_login_case.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_case.py">
+      <file leaf-file-name="test_case.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/test_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="183">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,40 +105,8 @@
       <file leaf-file-name="pppig_recharge_case.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-              <folding>
-                <element signature="e#42#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="to_login_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/to_login_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pppig_wethdraw_deposit_ccase.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_wethdraw_deposit_ccase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="assertequal.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/assertequal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="407">
+              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -133,6 +125,9 @@
     <findStrings>
       <find>提现</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -140,13 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/login_ccase.py" />
-        <option value="$PROJECT_DIR$/Po/Testcases/Test_bd.py" />
-        <option value="$PROJECT_DIR$/test_programe/run_all_test.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_to_Find_Login_Password_case.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_to_Find_Login_Password_Page.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/wait.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/txt.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_debt_cession_page.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_debt_cession_ccase.py" />
@@ -169,14 +157,10 @@
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/Calculate.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/function.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/calculate.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_case.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/connect_mysql.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/test_case.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_case.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_usecoupon_invest_case.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/date/invest.txt" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_to_invest_page.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/test_invest_case.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/test_register_case.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_set_transaction_password_page.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_set_transaction_pwd.py" />
@@ -185,12 +169,23 @@
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/login_set_transaction_pwd.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_open_the_depository_page.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/assertequal.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_realname_setpwd_case.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/date/register.txt" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_withdraw_deposit_page.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_recharge_page.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_to_user_answer_case.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_to_user_answer_page.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/driver.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_parametric_login_case.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_case.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_important_notice_case.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_parametric_case.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_realname_setpwd_case.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_parametric_ccase.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_withdraw_deposit_page.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_usecoupon_invest_case.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/test_invest_case.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_recharge_page.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/test_case.py" />
       </list>
     </option>
   </component>
@@ -201,8 +196,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1925" />
-    <option name="y" value="16" />
+    <option name="x" value="1571" />
+    <option name="y" value="110" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -243,7 +238,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -304,6 +298,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,18 +308,18 @@
     <property name="SearchEverywhereHistoryKey" value="pppigselect_Mobilephone_modification_pwd_telephonenumber&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python\demo\sublimePython\test_programe\mail\test_case\page_object" />
+      <recent name="E:\python\demo\sublimePython\test_programe\mail\test_case\model" />
+      <recent name="E:\python\demo\sublimePython\test_programe\mail\test_case" />
+      <recent name="E:\python\demo\sublimePython\test_programe\mail\date" />
+      <recent name="C:\Users\Administrator\Desktop\sublimePython\test_programe\mail" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\python\demo\sublimePython\test_programe\mail\test_case" />
       <recent name="E:\python\demo\sublimePython\test_programe\mail\test_case\page_object" />
       <recent name="C:\Users\Administrator\Desktop\sublimePython\test_programe\mail\test_case" />
       <recent name="C:\Users\Administrator\Desktop\sublimePython\test_programe" />
-      <recent name="C:\Users\Administrator\Desktop\sublimePython\test_programe\mail" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\python\demo\sublimePython\test_programe\mail\test_case\model" />
-      <recent name="E:\python\demo\sublimePython\test_programe\mail\test_case" />
-      <recent name="E:\python\demo\sublimePython\test_programe\mail\date" />
-      <recent name="E:\python\demo\sublimePython\test_programe\mail\test_case\page_object" />
       <recent name="C:\Users\Administrator\Desktop\sublimePython\test_programe\mail" />
     </key>
   </component>
@@ -340,8 +335,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in pppig_recharge_case.py">
-    <configuration name="Unittests for assertequal.LoginTest.test_login_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in test_case.py">
+    <configuration name="Unittests for pppig_recharge_parametric_ccase.RechargeTest.test_login_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -353,10 +348,10 @@
       <module name="sublimePython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;assertequal.LoginTest.test_login_success&quot;" />
+      <option name="_new_target" value="&quot;pppig_recharge_parametric_ccase.RechargeTest.test_login_success&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for pppig_recharge_case.RechargeTest.test_login_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_case.RechargeTest.test_login_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -368,23 +363,8 @@
       <module name="sublimePython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;pppig_recharge_case.RechargeTest.test_login_success&quot;" />
+      <option name="_new_target" value="&quot;test_case.RechargeTest.test_login_success&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests in pppig_login_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_programe/mail/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="sublimePython" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_case.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Unittests in pppig_recharge_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -401,7 +381,7 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="Unittests in pppig_register_realname_setpwd_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in pppig_recharge_parametric_ccase.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -413,23 +393,38 @@
       <module name="sublimePython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_realname_setpwd_case.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_parametric_ccase.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_programe/mail/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sublimePython" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_programe/mail/test_case/test_case.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_register_realname_setpwd_case.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for assertequal.LoginTest.test_login_success" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_login_case.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_recharge_case.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_recharge_case.RechargeTest.test_login_success" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_recharge_parametric_ccase.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_recharge_parametric_ccase.RechargeTest.test_login_success" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_recharge_case.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.RechargeTest.test_login_success" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_case.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_recharge_case.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_recharge_case.RechargeTest.test_login_success" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_register_realname_setpwd_case.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_login_case.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for assertequal.LoginTest.test_login_success" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_case.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.RechargeTest.test_login_success" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_recharge_case.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_recharge_parametric_ccase.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_recharge_parametric_ccase.RechargeTest.test_login_success" />
       </list>
     </recent_temporary>
   </component>
@@ -706,46 +701,53 @@
       <option name="project" value="LOCAL" />
       <updated>1516183771350</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="风险测评">
+      <created>1516236054722</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1516236054722</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_pppig_recharge_case_RechargeTest_test_login_success - 2018.01.17 at 17h 53m 40s.xml">
-      <configuration name="Unittests for pppig_recharge_case.RechargeTest.test_login_success" configurationId="tests" />
+    <history-entry file="Unittests_in_pppig_recharge_parametric_ccase_py - 2018.01.18 at 17h 21m 13s.xml">
+      <configuration name="Unittests in pppig_recharge_parametric_ccase.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_pppig_recharge_case_py - 2018.01.17 at 17h 46m 21s.xml">
-      <configuration name="Unittests in pppig_recharge_case.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_py - 2018.01.18 at 17h 06m 02s.xml">
+      <configuration name="Unittests in test_case.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_pppig_recharge_case_py - 2018.01.17 at 17h 47m 25s.xml">
-      <configuration name="Unittests in pppig_recharge_case.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_py - 2018.01.18 at 17h 07m 24s.xml">
+      <configuration name="Unittests in test_case.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_pppig_recharge_case_py - 2018.01.17 at 17h 48m 21s.xml">
-      <configuration name="Unittests in pppig_recharge_case.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_py - 2018.01.18 at 17h 10m 24s.xml">
+      <configuration name="Unittests in test_case.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_pppig_recharge_case_py - 2018.01.17 at 17h 49m 13s.xml">
-      <configuration name="Unittests in pppig_recharge_case.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_py - 2018.01.18 at 17h 18m 06s.xml">
+      <configuration name="Unittests in test_case.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_pppig_recharge_case_py - 2018.01.17 at 17h 52m 24s.xml">
-      <configuration name="Unittests in pppig_recharge_case.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_py - 2018.01.18 at 17h 20m 28s.xml">
+      <configuration name="Unittests in test_case.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_pppig_recharge_case_py - 2018.01.17 at 18h 08m 51s.xml">
-      <configuration name="Unittests in pppig_recharge_case.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_py - 2018.01.18 at 17h 21m 41s.xml">
+      <configuration name="Unittests in test_case.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_pppig_register_realname_setpwd_case_py - 2018.01.17 at 15h 48m 35s.xml">
-      <configuration name="Unittests in pppig_register_realname_setpwd_case.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_py - 2018.01.18 at 17h 22m 43s.xml">
+      <configuration name="Unittests in test_case.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_pppig_register_realname_setpwd_case_py - 2018.01.17 at 15h 50m 12s.xml">
-      <configuration name="Unittests in pppig_register_realname_setpwd_case.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_py - 2018.01.18 at 17h 23m 23s.xml">
+      <configuration name="Unittests in test_case.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_pppig_register_realname_setpwd_case_py - 2018.01.17 at 15h 56m 46s.xml">
-      <configuration name="Unittests in pppig_register_realname_setpwd_case.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case_py - 2018.01.18 at 17h 24m 47s.xml">
+      <configuration name="Unittests in test_case.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26197916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27760416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -755,14 +757,14 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37079832" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37079832" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33088234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33088234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -796,7 +798,8 @@
     <MESSAGE value="设置交易密码" />
     <MESSAGE value="参数化注册" />
     <MESSAGE value="充值" />
-    <option name="LAST_COMMIT_MESSAGE" value="充值" />
+    <MESSAGE value="风险测评" />
+    <option name="LAST_COMMIT_MESSAGE" value="风险测评" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -826,6 +829,21 @@
           <line>46</line>
           <option name="timeStamp" value="122" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_programe/mail/test_case/test_case.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_programe/mail/test_case/test_case.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_programe/mail/test_case/test_case.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -837,86 +855,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="130" />
+      <option name="time" value="141" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/myunit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/date/name.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_to_Find_Login_Password_Page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/mail_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_debt_cession_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_debt_cession_ccase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_important_notice_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_to_Find_Login_Password_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/jx_transaction_password_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="28" column="63" lean-forward="false" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/report/image/success.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/report/image/取现操作已执行.png" />
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_to_invest_ccase.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -988,50 +931,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/top9_ccase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_goRegister_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="88" column="4" lean-forward="true" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/test1_register_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <marker date="1516083903660" expanded="true" signature="1195:1315" ph="select valid... mobile_authen" />
-            <marker date="1516083903660" expanded="true" signature="1484:1598" ph="select valid... mobile_authen" />
-            <marker date="1516083903660" expanded="true" signature="1670:1782" ph="select valid... mobile_authen" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_use_coupon_invest_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_usecoupon_invest_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/test_invest_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,27 +943,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
           <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login1_ccase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login_ccase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,24 +962,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_realname_setpwd_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/date/register.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="64" lean-forward="true" selection-start-line="0" selection-start-column="64" selection-end-line="0" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_open_the_depository_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,29 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="13" column="68" lean-forward="true" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_withdraw_deposit_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2871">
-          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1140,36 +988,232 @@
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/to_login_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/date/register.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="61" lean-forward="false" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_to_user_answer_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/model/driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/top_window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/top9_ccase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="e#42#64#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="24" column="77" lean-forward="true" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/assertequal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="424">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login1_ccase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/login_ccase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="59" column="55" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="59" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_debt_cession_ccase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_important_notice_ccase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_parametric_ccase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="21" column="45" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="21" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_realname_setpwd_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="52" column="50" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="52" selection-end-column="50" />
+          <folding>
+            <marker date="1516260600535" expanded="true" signature="1451:1563" ph="select valid... mobile_authen" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="23" column="71" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="23" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_parametric_ccase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="36" column="49" lean-forward="false" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_to_user_answer_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="130" column="23" lean-forward="true" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_withdraw_deposit_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/test1_register_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <marker date="1516083903660" expanded="true" signature="1195:1315" ph="select valid... mobile_authen" />
+            <marker date="1516083903660" expanded="true" signature="1484:1598" ph="select valid... mobile_authen" />
+            <marker date="1516083903660" expanded="true" signature="1670:1782" ph="select valid... mobile_authen" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_use_coupon_invest_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_usecoupon_invest_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/test_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_recharge_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="85" column="24" lean-forward="false" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="24" />
-          <folding>
-            <element signature="e#43#107#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="462">
+          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding>
-            <element signature="e#42#64#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="407">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

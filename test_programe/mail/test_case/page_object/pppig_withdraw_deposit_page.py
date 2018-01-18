@@ -13,7 +13,8 @@ class Withdraw_Deposit(Page):
 	# 我的账户
 	pppigmy_account_button_text = (By.XPATH, ".//*[@id='indexPPPig']/div[2]/div/a")
 	# 提现
-	pppigccount_withdrawal_button_text = (By.XPATH, ".//*[@id='account-main']/div[1]/div[1]/div/div/a[2]")
+	# pppigccount_withdrawal_button_text = (By.XPATH, ".//*[@id='account-main']/div[1]/div[1]/div/div/a[2]")
+	pppigccount_withdrawal_button_text = (By.LINK_TEXT, "提现")
 	# 快速提现
 	pppigrapid_withdrawal_button_text = (By.XPATH, ".//*[@id='cashForm']/div/a[1]")
 	# 大额提现

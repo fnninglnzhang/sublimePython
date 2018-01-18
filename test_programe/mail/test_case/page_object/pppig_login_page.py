@@ -48,7 +48,7 @@ class LoginPage(Page):
 
     # 登录后的用户名     用于断言
     def pppiglogin_success_user(self):
-        return self.find_element(*self.pppiglogin_success_user_text)
+        return self.find_element(*self.pppiglogin_success_user_text).text
 
     # 关于我们
     def pppigabout_us(self):

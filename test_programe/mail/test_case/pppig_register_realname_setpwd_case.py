@@ -50,7 +50,6 @@ class RegisterTest(myunit.MyTest):
                 poset_transaction_password.pppigset_Transaction_password_Action('111111', '111111')
                 sleep(10)
                 pologout = LoginPage(self.driver)
-                pologout.pppiglogin_close_Action(username, password)
                 pologout.pppiglogin_close_button()
         except BaseException as e:
             print(e)

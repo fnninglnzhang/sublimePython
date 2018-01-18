@@ -15,8 +15,8 @@ class pppigToUserAnswer(myunit.MyTest):
         #登录
         lp.open()
         sleep(2)
-        lp.pppiglogin_Action("15210240405", "111111")
-        sleep(2)
+        lp.pppiglogin_noclose_Action("13011111101", "111111")
+        sleep(4)
         #风险测评
         tusp.open()
         sleep(2)

@@ -12,7 +12,8 @@ class Recharge(Page):
 	# 我的账户
 	pppigmy_account_button_text = (By.XPATH, ".//*[@id='indexPPPig']/div[2]/div/a")
 	# 充值
-	pppigacount_recharge_button_text = (By.XPATH, ".//*[@id='account-main']/div[1]/div[1]/div/div/a[1]")
+	# pppigacount_recharge_button_text = (By.XPATH, ".//*[@id='account-main']/div[1]/div[1]/div/div/a[1]")
+	pppigacount_recharge_button_text = (By.LINK_TEXT, "充值")
 	# 快捷充值
 	pppigrapid_recharge_button_text = (By.XPATH, ".//*[@id='cz']/ul/li[1]")
 	# 支付宝充值
@@ -20,7 +21,8 @@ class Recharge(Page):
 	# 转账充值
 	pppigtransfer_recharge_button_text = (By.XPATH, ".//*[@id='cz']/ul/li[3]")
 	# 充值金额
-	pppigcash_recharge_amount_text = (By.ID, 'rechargeMoney')
+	# pppigcash_recharge_amount_text = (By.ID, 'rechargeMoney')
+	pppigcash_recharge_amount_text = (By.CSS_SELECTOR, '#rechargeMoney')
 	# 获取短信验证码按钮
 	pppigrecharge_code_button_text = (By.ID, 'btn_countdown_recharge_fast')
 	# 短信验证码
@@ -30,8 +32,10 @@ class Recharge(Page):
 	# 需要处理alert
 	# 点击确定
 	pppigalertenter_button_text = (By.XPATH, ".//*[@id='layui-layer3']/div[3]/a")
-
-
+	# 充值成功
+	pppigrecharge_success_text = (By.XPATH, ".//*[@id='layui-layer2']/div[2]/div")
+	# 充值失败
+	pppigrecharge_false_text = (By.XPATH, ".//*[@id='layui-layer2']/div[2]/div")
 
 	# 把每一个元素封装成一个方法
 	# 我的账户
@@ -75,20 +79,29 @@ class Recharge(Page):
 	def pppigrecharge_at_once_button(self):
 		self.find_element(*self.pppigrecharge_at_once_button_text).click()
 
-	# 处理alert点击确定
+	# 点击确定
 	def pppigalertenter_button(self):
-		self.find_element(*self.pppigalertenter_button_text)
-		self.driver.switch_to_alart().accept()
+		self.find_element(*self.pppigalertenter_button_text).click()
+		# self.driver.switch_to_alart().accept()
 
+	# 充值成功
+	def pppigrecharge_success(self):
+		return self.find_element(*self.pppigrecharge_success_text).text
+		# return self.driver.switch_to_alart().text
+
+	# 充值失败
+	def pppigrecharge_false(self):
+		return self.find_element(*self.pppigrecharge_false_text).text
+		# return self.driver.switch_to_alart().text
 
 
 	# 充值
 	def recharge1_Action(self, amount):
-		self.pppigmy_account_button()
+		# self.pppigmy_account_button()
 		self.pppigacount_recharge_button()
 		self.pppigcash_recharge_amount(amount)
 		self.pppigrecharge_code_button()
 
 	def recharge2_Action(self):
 		self.pppigrecharge_at_once_button()
-		self.pppigalertenter_button()
+		# self.pppigalertenter_button()

@@ -125,6 +125,7 @@ class To_User_Snswer_page(Page):
     def alertQuestions_Button(self):
         wait.wait_presence_of_element_located(*self.pppigalertQuestions_button)
         self.find_element(*self.pppigalertQuestions_button).click()
+
     #选择年龄
     def dictAgeOne_Select(self,status):
         if status == 0:

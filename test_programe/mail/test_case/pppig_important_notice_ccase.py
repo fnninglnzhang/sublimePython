@@ -10,10 +10,7 @@ class Important_noticeTest(myunit.MyTest):
 
 	def test_important_notice_close(self):
 		"""点击关闭重要通知"""
-		po = Important_noticePage(self.driver)
-		sleep(2)
-		po.open()
-		sleep(2)
-		po.pppignotice_Action()
-		# function.insert_img(self.driver, "closenotice1.jpg")
+		ponotice = Important_noticePage(self.driver)
+		ponotice.open()
+		ponotice.pppignotice_Action()
 		function.insert_img(self.driver, "closenotice1.png")

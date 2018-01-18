@@ -12,34 +12,21 @@ sys.path.append('./page_obj')
 class LoginTest(myunit.MyTest):
 
     def test_login_success(self):
-        '''参数化、用户名、密码正确,登录成功'''
-        try:
-            f = open('../date/name.txt')
-            # f = open('D:\\name.txt')
-            lines = f.readlines()
-            for line in lines:
-                username = line.split(',')[0]
-                password = line.split(',')[1]
-                po = LoginPage(self.driver)
-                # sleep(1)
-                po.open()
-                po.pppiglogin_close_Action(username, password)
-                sleep(2)
-        except BaseException as e:
-            print(e)
-
-
-    """
-    def test_no_close_login_success(self):
-        '''没有退出用户名、密码正确,登录'''
+        '''用户名、密码正确,登录成功'''
         try:
             po = LoginPage(self.driver)
             po.open()
-            po.pppiglogin_noclose_Action("13011111101", "111111")
+            username = '13011111101'
+            po.pppiglogin_noclose_Action(username, '111111')
             sleep(2)
+            self.assertEqual(po.pppiglogin_success_user(), username)
+            print(po.pppiglogin_success_user()+'登陆成功')
+            function.insert_img(self.driver, "pppig_login_success.png")
         except BaseException as e:
             print(e)
-    """
+
+
+
 
 # 用于验证该脚本是否有效
 if __name__ == "__main__":
