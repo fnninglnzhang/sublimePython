@@ -16,7 +16,8 @@ class RechargeTest(myunit.MyTest):
 		pologin = LoginPage(self.driver)
 		pologin.open()
 		sleep(1)
-		pologin.pppiglogin_noclose_Action('13011111106', '111111')
+		username = '13011111106'
+		pologin.pppiglogin_noclose_Action(username, '111111')
 		sleep(2)
 		porecharge = Recharge(self.driver)
 		# 充值 -- 充值金额 -- 获取短信验证码按钮
@@ -27,7 +28,7 @@ class RechargeTest(myunit.MyTest):
 		porecharge.recharge2_Action()
 		porecharge.pppigalertenter_button()
 		sleep(5)
-		print('充值成功')
+		print(username+'充值成功')
 		function.insert_img(self.driver, "pppig_recharge_success.png")
 
 

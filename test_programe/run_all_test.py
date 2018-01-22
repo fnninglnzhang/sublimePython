@@ -68,7 +68,7 @@ if __name__ == "__main__":
 	runner = unittest.TextTestRunner()
 	runner = HTMLTestRunner(stream=fp,
 	                        title='测试报告',
-	                        description="运行环境：windows 10, Chrome")
+	                        description="运行环境：windows 10, IE")
 	runner.run(discover)
 	fp.close()
 

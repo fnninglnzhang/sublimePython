@@ -8,8 +8,6 @@ from selenium.webdriver.support.ui import WebDriverWait as Wa
 from selenium.webdriver.support import expected_conditions as Ec
 import codecs
 
-
-
 # 你的page_object需要是一个包目录，不能是普通的文件夹目录然后直接from base import 导入就可以了
 
 #页面对象（PO）登录页面

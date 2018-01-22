@@ -14,10 +14,12 @@ class FindPWD(myunit.MyTest):
 		po.open()
 		po.toFindLoginPasswordPage_Action()
 		po2 = SelectMySQL()
-		po.toFindLoginPasswordForPhonePage1_Action("13011111101", "1111")
+		username = '13011111101'
+		po.toFindLoginPasswordForPhonePage1_Action(username, "1111")
 		a = po2.select_Data("select validCode from mobile_authen where mobile=13011111101 and mobileAuthenid>3399000 ORDER BY sendTime desc limit 0,1")
 		po.toFindLoginPasswordForPhonePage2_Action(a)
 		po.findByValidCodeP("111111", "111111")
+		print('用户'+username+'   您的密码找回成功')
 
 # 用于验证该脚本是否有效
 if __name__ == "__main__":

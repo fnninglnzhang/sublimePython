@@ -17,18 +17,20 @@ class To_investTest(myunit.MyTest):
             po = LoginPage(self.driver)
             sleep(2)
             po.open()
-            po.pppiglogin_noclose_Action("13545194238", "111111")
+            username = '13011111101'
+            po.pppiglogin_noclose_Action(username, "111111")
             sleep(2)
-            po.open_R('/recommendloanDetail?loanId=35416')
+            po.open_R('/recommendloanDetail?loanId=35377')
             po1 = To_invest(self.driver)
             sleep(2)
-            po1.pppiguse_ratecoupon_Invest_Action('96800')
+            amount = '100'
+            po1.pppiguse_ratecoupon_Invest_Action(amount)
 
             sleep(2)
             po1.pppiginvest_Action3("1111")
             sleep(2)
             po1.pppiginvest_Action4("111111")
-            print('投资成功')
+            print('用户'+username+'投资'+amount+'元'+'  投资成功')
         except BaseException as e:
             print(e)
 

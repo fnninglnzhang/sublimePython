@@ -14,20 +14,24 @@ sys.path.append('./page_obj')
 class LoginTest(myunit.MyTest):
 
 	def test_withdraw_deposit(self):
-		'''登录成功,提现'''
+		'''登录后进行提现操作'''
 		try:
 			pologin = LoginPage(self.driver)
 			pologin.open()
-			pologin.pppiglogin_noclose_Action("13011111101", "111111")
+			username = '13011111101'
+			pologin.pppiglogin_noclose_Action(username, "111111")
 			sleep(1)
 			powithdraw = Withdraw_Deposit(self.driver)
 			sleep(2)
-			powithdraw.rapid_Withdrawal_Action("100")
+			amount = '1'
+			powithdraw.rapid_Withdrawal_Action(amount)
 			sleep(2)
 			powithdraw.withdraw_Jx_Transaction_Password_Action('111111')
 			sleep(10)
+
 			# self.assertEqual(powithdraw.pppig_anready_withdrawal(), '取现操作已执行')
 			function.insert_img(self.driver, "取现操作已执行.png")
+			print('用户'+username+'提现'+amount+' 元'+'   提现操作已执行')
 		except Exception as e:
 			print(e)
 
