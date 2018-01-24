@@ -43,6 +43,7 @@ class LoginPage(Page):
     def pppiglogin_close_button(self):
         self.find_element(*self.pppiglogin_close_button_text).click()
 
+    # 错误
     def pppiglogin_erro_hint(self):
         return self.find_element(*self.pppiglogin_erro_hint_text).text
 

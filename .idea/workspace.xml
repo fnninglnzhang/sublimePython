@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e52a6c4c-974f-4bb8-9ec5-510bcd75c829" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_programe/mail/date/testData.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_programe/config/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_programe/config/globalparameter.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/model/log.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_case.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/model/excel_table_byindex.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/model/excel_data.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/test1_register_ccase.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/test1_login.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/test1_login.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/test1_login.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,9 +34,11 @@
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_to_user_answer_case_py.coverage" NAME="Unittests in pppig_to_user_answer_case.py Coverage Results" MODIFIED="1516253185133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_test_case_To_investTest_test_to_invest_success.coverage" NAME="Unittests for test_case.To_investTest.test_to_invest_success Coverage Results" MODIFIED="1515743549224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppigimportant_notice_case_py.coverage" NAME="Unittests in pppigimportant_notice_case.py Coverage Results" MODIFIED="1515052470636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_test1_login_LoginTest_test_no_user_and_pwd.coverage" NAME="Unittests for test1_login.LoginTest.test_no_user_and_pwd Coverage Results" MODIFIED="1516784181037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$pppig_to_Find_Login_Password_case.coverage" NAME="pppig_to_Find_Login_Password_case Coverage Results" MODIFIED="1515489239427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_product_login_case_py.coverage" NAME="Unittests in pppig_product_login_case.py Coverage Results" MODIFIED="1516065792117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_assertequal_LoginTest_test_login_success.coverage" NAME="Unittests for assertequal.LoginTest.test_login_success Coverage Results" MODIFIED="1516172408358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_test1_login_LoginTest_test_no_user_and_pwd_failure.coverage" NAME="Unittests for test1_login.LoginTest.test_no_user_and_pwd_failure Coverage Results" MODIFIED="1516784771067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$txt.coverage" NAME="txt Coverage Results" MODIFIED="1515578397930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/model" />
     <SUITE FILE_PATH="coverage/sublimePython$connect_mysql.coverage" NAME="connect_mysql Coverage Results" MODIFIED="1515579370122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/model" />
     <SUITE FILE_PATH="coverage/sublimePython$pppig_to_user_answer_page.coverage" NAME="pppig_to_user_answer_page Coverage Results" MODIFIED="1516246242427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
@@ -50,15 +46,20 @@
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_pppig_recharge_parametric_ccase_RechargeTest_test_login_success.coverage" NAME="Unittests for pppig_recharge_parametric_ccase.RechargeTest.test_login_success Coverage Results" MODIFIED="1516322022776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$pppig_to_Find_Login_Password_Page.coverage" NAME="pppig_to_Find_Login_Password_Page Coverage Results" MODIFIED="1515489227841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_pppig_login_case_LoginTest.coverage" NAME="Unittests for pppig_login_case.LoginTest Coverage Results" MODIFIED="1516778097559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_test1_login_LoginTest_test_username_so_long.coverage" NAME="Unittests for test1_login.LoginTest.test_username_so_long Coverage Results" MODIFIED="1516786954465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_test1_login_LoginTest_test_user_name_wrong.coverage" NAME="Unittests for test1_login.LoginTest.test_user_name_wrong Coverage Results" MODIFIED="1516785476781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$pppig_withdraw_deposit_page.coverage" NAME="pppig_withdraw_deposit_page Coverage Results" MODIFIED="1515985839876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_test_invest_case_py.coverage" NAME="Unittests in test_invest_case.py Coverage Results" MODIFIED="1516097189724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$pppig_to_invest_page.coverage" NAME="pppig_to_invest_page Coverage Results" MODIFIED="1516091843411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_recharge_parametric_ccase_py.coverage" NAME="Unittests in pppig_recharge_parametric_ccase.py Coverage Results" MODIFIED="1516754778202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_test1_login_LoginTest_test_username_in_space.coverage" NAME="Unittests for test1_login.LoginTest.test_username_in_space Coverage Results" MODIFIED="1516787362845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_important_notice_case_py.coverage" NAME="Unittests in pppig_important_notice_case.py Coverage Results" MODIFIED="1516259503331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_login_case_py.coverage" NAME="Unittests in pppiglogin_case.py Coverage Results" MODIFIED="1514878669183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_myunit_py.coverage" NAME="Unittests in myunit.py Coverage Results" MODIFIED="1513562939946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_test1_login_py.coverage" NAME="Unittests in test1_login.py Coverage Results" MODIFIED="1516786932864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_debt_cession_ccase_py.coverage" NAME="Unittests in pppig_debt_cession_ccase.py Coverage Results" MODIFIED="1515647608625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$base.coverage" NAME="base Coverage Results" MODIFIED="1514533362551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_test1_login_LoginTest.coverage" NAME="Unittests for test1_login.LoginTest Coverage Results" MODIFIED="1516786591261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_pppig_to_user_answer_case_pppigToUserAnswer_test_pppig_user_answer.coverage" NAME="Unittests for pppig_to_user_answer_case.pppigToUserAnswer.test_pppig_user_answer Coverage Results" MODIFIED="1516246362004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$run_all_test.coverage" NAME="run_all_test Coverage Results" MODIFIED="1516587404694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe" />
     <SUITE FILE_PATH="coverage/sublimePython$home_page.coverage" NAME="home_page Coverage Results" MODIFIED="1513847118511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
@@ -72,6 +73,7 @@
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppigregister_case_py.coverage" NAME="Unittests in pppigregister_case.py Coverage Results" MODIFIED="1514967322236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_test_case_py.coverage" NAME="Unittests in test_case.py Coverage Results" MODIFIED="1516267416196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$login.coverage" NAME="login Coverage Results" MODIFIED="1513584279552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/demo1" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_test1_login_LoginTest_test_pass_word_wrong.coverage" NAME="Unittests for test1_login.LoginTest.test_pass_word_wrong Coverage Results" MODIFIED="1516785649035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_recharge_case_py.coverage" NAME="Unittests in pppig_recharge_case.py Coverage Results" MODIFIED="1516262988609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$test.coverage" NAME="test Coverage Results" MODIFIED="1514877250716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/work/python" />
     <SUITE FILE_PATH="coverage/sublimePython$assertequal.coverage" NAME="assertequal Coverage Results" MODIFIED="1516172180321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
@@ -97,8 +99,8 @@
       <file leaf-file-name="pppig_login_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="30" column="66" lean-forward="true" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+            <state relative-caret-position="235">
+              <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="28" />
               <folding>
                 <element signature="e#43#107#0" expanded="true" />
               </folding>
@@ -129,8 +131,8 @@
       <file leaf-file-name="test1_login.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/test1_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="796">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
               <folding>
                 <element signature="e#42#64#0" expanded="true" />
               </folding>
@@ -260,9 +262,9 @@
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/excel_data.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/log/mylog.log" />
         <option value="$PROJECT_DIR$/test_programe/config/globalparameter.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/log.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_case.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/test1_login.py" />
       </list>
     </option>
@@ -426,8 +428,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for pppig_login_case.LoginTest">
-    <configuration name="Unittests for pppig_login_case.LoginTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test1_login.LoginTest.test_username_in_space">
+    <configuration name="Unittests for test1_login.LoginTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -439,10 +441,10 @@
       <module name="sublimePython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;pppig_login_case.LoginTest&quot;" />
+      <option name="_new_target" value="&quot;test1_login.LoginTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for pppig_login_case.LoginTest.test_login_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test1_login.LoginTest.test_pass_word_wrong" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -454,10 +456,10 @@
       <module name="sublimePython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;pppig_login_case.LoginTest.test_login_success&quot;" />
+      <option name="_new_target" value="&quot;test1_login.LoginTest.test_pass_word_wrong&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in pppig_login_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test1_login.LoginTest.test_username_in_space" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -469,10 +471,10 @@
       <module name="sublimePython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_case.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test1_login.LoginTest.test_username_in_space&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in pppig_recharge_parametric_ccase.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test1_login.LoginTest.test_username_so_long" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -484,41 +486,38 @@
       <module name="sublimePython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_parametric_ccase.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test1_login.LoginTest.test_username_so_long&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="globalparameter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests in test1_login.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_programe/config" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_programe/mail/test_case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="sublimePython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_programe/config/globalparameter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_programe/mail/test_case/test1_login.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_recharge_parametric_ccase.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_login_case.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python.globalparameter" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_login_case.LoginTest.test_login_success" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_login_case.LoginTest" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test1_login.LoginTest.test_pass_word_wrong" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test1_login.LoginTest" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test1_login.LoginTest.test_username_so_long" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test1_login.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test1_login.LoginTest.test_username_in_space" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_login_case.LoginTest" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_login_case.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_login_case.LoginTest.test_login_success" />
-        <item index="3" class="java.lang.String" itemvalue="Python.globalparameter" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_recharge_parametric_ccase.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test1_login.LoginTest.test_username_in_space" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test1_login.LoginTest.test_username_so_long" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test1_login.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test1_login.LoginTest" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test1_login.LoginTest.test_pass_word_wrong" />
       </list>
     </recent_temporary>
   </component>
@@ -823,39 +822,46 @@
       <option name="project" value="LOCAL" />
       <updated>1516764117509</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="日志模块&#10;开始登录不同场景">
+      <created>1516783291217</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1516783291244</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_pppig_login_case_LoginTest - 2018.01.24 at 15h 15m 17s.xml">
-      <configuration name="Unittests for pppig_login_case.LoginTest" configurationId="tests" />
+    <history-entry file="Unittests_for_test1_login_LoginTest - 2018.01.24 at 17h 35m 25s.xml">
+      <configuration name="Unittests for test1_login.LoginTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_pppig_login_case_LoginTest_test_login_success - 2018.01.24 at 14h 54m 10s.xml">
-      <configuration name="Unittests for pppig_login_case.LoginTest.test_login_success" configurationId="tests" />
+    <history-entry file="Unittests_for_test1_login_LoginTest - 2018.01.24 at 17h 36m 50s.xml">
+      <configuration name="Unittests for test1_login.LoginTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_pppig_login_case_LoginTest_test_login_success - 2018.01.24 at 15h 04m 22s.xml">
-      <configuration name="Unittests for pppig_login_case.LoginTest.test_login_success" configurationId="tests" />
+    <history-entry file="Unittests_for_test1_login_LoginTest_test_pass_word_wrong - 2018.01.24 at 17h 21m 07s.xml">
+      <configuration name="Unittests for test1_login.LoginTest.test_pass_word_wrong" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_pppig_login_case_py - 2018.01.24 at 11h 23m 55s.xml">
-      <configuration name="Unittests in pppig_login_case.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test1_login_LoginTest_test_user_name_wrong - 2018.01.24 at 17h 15m 37s.xml">
+      <configuration name="Unittests for test1_login.LoginTest.test_user_name_wrong" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_pppig_login_case_py - 2018.01.24 at 11h 25m 26s.xml">
-      <configuration name="Unittests in pppig_login_case.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test1_login_LoginTest_test_user_name_wrong - 2018.01.24 at 17h 18m 16s.xml">
+      <configuration name="Unittests for test1_login.LoginTest.test_user_name_wrong" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_pppig_login_case_py - 2018.01.24 at 11h 29m 59s.xml">
-      <configuration name="Unittests in pppig_login_case.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test1_login_LoginTest_test_username_in_space - 2018.01.24 at 17h 49m 41s.xml">
+      <configuration name="Unittests for test1_login.LoginTest.test_username_in_space" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_pppig_login_case_py - 2018.01.24 at 14h 56m 15s.xml">
-      <configuration name="Unittests in pppig_login_case.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test1_login_LoginTest_test_username_so_long - 2018.01.24 at 17h 37m 32s.xml">
+      <configuration name="Unittests for test1_login.LoginTest.test_username_so_long" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_pppig_login_case_py - 2018.01.24 at 14h 57m 41s.xml">
-      <configuration name="Unittests in pppig_login_case.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test1_login_LoginTest_test_username_so_long - 2018.01.24 at 17h 42m 52s.xml">
+      <configuration name="Unittests for test1_login.LoginTest.test_username_so_long" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_pppig_login_case_py - 2018.01.24 at 15h 05m 45s.xml">
-      <configuration name="Unittests in pppig_login_case.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test1_login_py - 2018.01.24 at 17h 41m 56s.xml">
+      <configuration name="Unittests in test1_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_pppig_login_case_py - 2018.01.24 at 15h 07m 29s.xml">
-      <configuration name="Unittests in pppig_login_case.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test1_login_py - 2018.01.24 at 17h 42m 13s.xml">
+      <configuration name="Unittests in test1_login.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -890,7 +896,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="closenotice" />
     <MESSAGE value="to_invest投资" />
     <MESSAGE value="tianqi  po" />
     <MESSAGE value="findloginpassword" />
@@ -915,7 +920,8 @@
     <MESSAGE value="整理了登录和充值" />
     <MESSAGE value="整理报告" />
     <MESSAGE value="在base页面添加了一些方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="在base页面添加了一些方法" />
+    <MESSAGE value="日志模块&#10;开始登录不同场景" />
+    <option name="LAST_COMMIT_MESSAGE" value="日志模块&#10;开始登录不同场景" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1186,7 +1192,7 @@
         <state relative-caret-position="259">
           <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
           <folding>
-            <element signature="e#43#64#0" expanded="true" />
+            <element signature="e#43#64#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1196,7 +1202,7 @@
         <state relative-caret-position="330">
           <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
-            <element signature="e#36#47#0" expanded="true" />
+            <element signature="e#36#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1214,7 +1220,7 @@
         <state relative-caret-position="396">
           <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
           <folding>
-            <element signature="e#43#107#0" expanded="true" />
+            <element signature="e#43#107#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1241,16 +1247,6 @@
           <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
             <element signature="e#36#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="30" column="66" lean-forward="true" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
-          <folding>
-            <element signature="e#43#107#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1305,10 +1301,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="28" />
+          <folding>
+            <element signature="e#43#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/test1_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="405">
+          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding>
             <element signature="e#42#64#0" expanded="true" />
           </folding>
