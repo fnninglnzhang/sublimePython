@@ -6,6 +6,7 @@
         <list>
           <option value="mail.test_case.login_case.*" />
           <option value="mail.test_case.page_object.login_page.*" />
+          <option value="login_function_test.用户名前有空格的处理" />
         </list>
       </option>
     </inspection_tool>

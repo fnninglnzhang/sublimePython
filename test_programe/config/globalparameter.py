@@ -7,8 +7,8 @@ import time,os
 # 项目的绝对路径（因为 windows执行时需要绝对路径才能执行通过）
 # project_path = "D:\\for2017\\SPframework-Helen_2.0\\"
 # 获取项目路径
-project_path = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)[0]), '..'))
-# print('project_path' + project_path)
+project_path = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)[0]), '.'))
+print('project_path' + project_path)
 # 测试用例代码存放路径（用于构建suite,注意该文件夹下的文件都应该以test开头命名）
 test_case_path = project_path+"\\mail\\test_case"
 # print('test_case_path' + test_case_path)
@@ -16,7 +16,7 @@ test_case_path = project_path+"\\mail\\test_case"
 test_data_path = project_path+"\\mail\\data\\testData.xlsx"
 # print('test_date_path' + test_data_path)
 # 日志文件存储路径
-log_path = project_path+"\\log\\mylog.log"
+log_path = project_path+"\\mail\\log\\mylog.log"
 print(u'日志路径：'+log_path)
 # 测试报告存储路径，并以当前时间作为报告名称前缀
 report_path = project_path+"\\report\\"

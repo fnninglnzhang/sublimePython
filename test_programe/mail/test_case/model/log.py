@@ -7,8 +7,7 @@ from config import globalparameter as gl
 '''
 
 # 日志文件存储路径
-# log_path = "e:\\python\\demo\\sublimePython\\test_programe\\log\\mylog.log"
-# print(u'日志路径：'+log_path)
+
 class log:
     def __init__(self):
         self.logname = "mylog"

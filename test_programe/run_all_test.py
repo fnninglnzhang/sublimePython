@@ -59,7 +59,10 @@ test_report = 'e:\\python\\demo\\sublimePython\\test_programe\\mail\\report'
 """找到test_dir目录下所有的******——case的文件并执行
 以通过文件的名称来判断是否为测试用例文件，如为用例文件则自动添加到测试套件中
 """
-discover = unittest.defaultTestLoader.discover(test_dir, pattern='*_case.py')
+# 执行***.py的用例
+# discover = unittest.defaultTestLoader.discover(test_dir, pattern='*_case.py')
+# 要执行需要把项目路径去掉一个“.”
+discover = unittest.defaultTestLoader.discover(test_dir, pattern='*_test.py')
 
 if __name__ == "__main__":
 	now = time.strftime("%Y-%m-%d %H_%M_%S")
