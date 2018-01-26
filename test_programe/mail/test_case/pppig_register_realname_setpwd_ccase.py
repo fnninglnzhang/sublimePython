@@ -31,6 +31,7 @@ class RegisterTest(myunit.MyTest):
                 poRegister.open()
                 # 下方用例包含点击获取验证码
                 poRegister.goregisternoinvite1_Action(username, password, "1111")
+                sleep(2)
                 checkCode = poRegistercode.select_Data("select validCode from mobile_authen where mobile= {} and mobileAuthenid>3399000 ORDER BY sendTime desc limit 0,1".format(username))
                 # 下方用例包含输入验证码 - 同意协议 - 点击注册
                 poRegister.goregisternoinvite2_Action(checkCode)
