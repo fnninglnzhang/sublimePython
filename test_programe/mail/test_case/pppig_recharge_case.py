@@ -16,12 +16,12 @@ class RechargeTest(myunit.MyTest):
 		pologin = LoginPage(self.driver)
 		pologin.open()
 		sleep(1)
-		username = '13011111106'
+		username = '15511509024'
 		pologin.pppiglogin_noclose_Action(username, '111111')
 		sleep(2)
 		porecharge = Recharge(self.driver)
 		# 充值 -- 充值金额 -- 获取短信验证码按钮
-		porecharge.recharge1_Action('3')
+		porecharge.recharge1_Action('9000000')
 		# 手动输入验证码
 		sleep(15)
 		# 立即充值

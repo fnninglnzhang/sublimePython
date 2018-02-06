@@ -26,7 +26,7 @@ class RechargeTest(myunit.MyTest):
 				sleep(2)
 				porecharge = Recharge(self.driver)
 				# 充值 -- 充值金额 -- 获取短信验证码按钮
-				amount = '500000'
+				amount = '9000000'
 				porecharge.recharge1_Action(amount)
 				# 手动输入验证码
 				sleep(15)

@@ -17,7 +17,7 @@ class LoginTest(myunit.MyTest):
         try:
             po = LoginPage(self.driver)
             po.open()
-            username = '13011111101'
+            username = '15511509024'
             po.pppiglogin_noclose_Action(username, '111111')
             sleep(2)
             self.assertEqual(po.pppiglogin_success_user(), username)                             # 登录成功后断言右上角的用户信息

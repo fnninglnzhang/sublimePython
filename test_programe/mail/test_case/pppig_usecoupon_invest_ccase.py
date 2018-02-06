@@ -24,7 +24,7 @@ class To_investTest(myunit.MyTest):
                 po.open()
                 po.pppiglogin_noclose_Action(username, "111111")              # 用户登陆
                 sleep(2)
-                po.open_R('/recommendloanDetail?loanId=35377')                    # 标的 URL
+                po.open_R('/recommendloanDetail?loanId=35395')                    # 标的 URL
                 po1 = To_invest(self.driver)
                 sleep(2)
                 po1.pppiguse_no_Coupon_Invest_Action(investmentamount)                # 不使用卡券投资
