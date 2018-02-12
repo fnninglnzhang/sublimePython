@@ -16,7 +16,7 @@ class RechargeTest(myunit.MyTest):
 		pologin = LoginPage(self.driver)
 		pologin.open()
 		sleep(1)
-		username = '15511509024'
+		username = '13011111103'
 		pologin.pppiglogin_noclose_Action(username, '111111')
 		sleep(2)
 		porecharge = Recharge(self.driver)

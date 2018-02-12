@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e52a6c4c-974f-4bb8-9ec5-510bcd75c829" name="Default" comment="添加注册获取验证码等待时间">
+    <list default="true" id="e52a6c4c-974f-4bb8-9ec5-510bcd75c829" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/date/invest.txt" afterPath="$PROJECT_DIR$/test_programe/mail/date/invest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_case.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_parametric_ccase.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_parametric_ccase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_use_coupon_invest_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_use_coupon_invest_case.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_usecoupon_invest_ccase.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_usecoupon_invest_ccase.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,7 +62,7 @@
     <SUITE FILE_PATH="coverage/sublimePython$pppig_withdraw_deposit_page.coverage" NAME="pppig_withdraw_deposit_page Coverage Results" MODIFIED="1515985839876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_test_invest_case_py.coverage" NAME="Unittests in test_invest_case.py Coverage Results" MODIFIED="1516097189724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$pppig_to_invest_page.coverage" NAME="pppig_to_invest_page Coverage Results" MODIFIED="1516091843411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case/page_object" />
-    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_recharge_parametric_ccase_py.coverage" NAME="Unittests in pppig_recharge_parametric_ccase.py Coverage Results" MODIFIED="1516956005002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_recharge_parametric_ccase_py.coverage" NAME="Unittests in pppig_recharge_parametric_ccase.py Coverage Results" MODIFIED="1518396558279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_test1_login_LoginTest_test_username_in_space.coverage" NAME="Unittests for test1_login.LoginTest.test_username_in_space Coverage Results" MODIFIED="1516787362845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_test1_login_LoginTest_test_login_success.coverage" NAME="Unittests for test1_login.LoginTest.test_login_success Coverage Results" MODIFIED="1516856693468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_important_notice_case_py.coverage" NAME="Unittests in pppig_important_notice_case.py Coverage Results" MODIFIED="1516259503331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
@@ -93,7 +88,7 @@
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_test_case_py.coverage" NAME="Unittests in test_case.py Coverage Results" MODIFIED="1516267416196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$login.coverage" NAME="login Coverage Results" MODIFIED="1513584279552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/demo1" />
     <SUITE FILE_PATH="coverage/sublimePython$Unittests_for_test1_login_LoginTest_test_pass_word_wrong.coverage" NAME="Unittests for test1_login.LoginTest.test_pass_word_wrong Coverage Results" MODIFIED="1516785649035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
-    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_recharge_case_py.coverage" NAME="Unittests in pppig_recharge_case.py Coverage Results" MODIFIED="1517812939893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
+    <SUITE FILE_PATH="coverage/sublimePython$Unittests_in_pppig_recharge_case_py.coverage" NAME="Unittests in pppig_recharge_case.py Coverage Results" MODIFIED="1518066934184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$test.coverage" NAME="test Coverage Results" MODIFIED="1514877250716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/work/python" />
     <SUITE FILE_PATH="coverage/sublimePython$assertequal.coverage" NAME="assertequal Coverage Results" MODIFIED="1516172180321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/mail/test_case" />
     <SUITE FILE_PATH="coverage/sublimePython$globalparameter.coverage" NAME="globalparameter Coverage Results" MODIFIED="1516871127972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_programe/config" />
@@ -105,61 +100,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pppig_to_invest_ccase.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_to_invest_ccase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pppig_to_user_answer_ccase.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_to_user_answer_ccase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pppig_use_coupon_invest_case.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_use_coupon_invest_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+            <state relative-caret-position="891">
+              <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="99">
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <marker date="1518396819703" expanded="true" signature="104575:104617" ph="..." />
+                <marker date="1518396819703" expanded="true" signature="104575:104635" ph="..." />
+                <marker date="1518396819703" expanded="true" signature="104575:104648" ph="..." />
+                <marker date="1518396819703" expanded="true" signature="104575:104663" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pppig_goRegister_page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_goRegister_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pppig_to_invest_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_to_invest_page.py">
+      <file leaf-file-name="pppig_recharge_parametric_ccase.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_parametric_ccase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4851">
-              <caret line="152" column="8" lean-forward="false" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
+            <state relative-caret-position="396">
+              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pppig_login_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_login_page.py">
+      <file leaf-file-name="run_all_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_programe/run_all_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2541">
-              <caret line="83" column="38" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="38" />
+            <state relative-caret-position="601">
+              <caret line="69" column="29" lean-forward="false" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recharge.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_programe/mail/date/recharge.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -198,8 +198,8 @@
       <file leaf-file-name="pppig_recharge_case.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            <state relative-caret-position="132">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -242,7 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_to_calc_page.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/Calculate.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/function.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/model/calculate.py" />
@@ -286,13 +285,14 @@
         <option value="$PROJECT_DIR$/test_programe/run_all_test.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_realname_setpwd_ccase.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/date/register.txt" />
-        <option value="$PROJECT_DIR$/test_programe/mail/date/recharge.txt" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_parametric_ccase.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/date/invest.txt" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_usecoupon_invest_ccase.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_login_case.py" />
-        <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py" />
         <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_use_coupon_invest_case.py" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py" />
+        <option value="$PROJECT_DIR$/test_programe/mail/date/recharge.txt" />
       </list>
     </option>
   </component>
@@ -303,8 +303,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+    <option name="x" value="1720" />
+    <option name="y" value="202" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -409,8 +409,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,7 +447,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for pppig_use_coupon_invest_case.To_investTest.test_to_invest_success">
+  <component name="RunManager" selected="Python tests.Unittests in pppig_recharge_parametric_ccase.py">
     <configuration name="Unittests for pppig_login_case.LoginTest.test_login_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -493,7 +493,7 @@
       <option name="_new_target" value="&quot;pppig_use_coupon_invest_case.To_investTest.test_to_invest_success&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for pppig_usecoupon_invest_ccase.To_investTest.test_to_invest_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in pppig_recharge_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -505,10 +505,10 @@
       <module name="sublimePython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;pppig_usecoupon_invest_ccase.To_investTest.test_to_invest_success&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="Unittests in pppig_use_coupon_invest_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in pppig_recharge_parametric_ccase.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -520,23 +520,23 @@
       <module name="sublimePython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_programe/mail/test_case/pppig_use_coupon_invest_case.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_parametric_ccase.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_use_coupon_invest_case.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_recharge_case.RechargeTest.test_login_success" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_use_coupon_invest_case.To_investTest.test_to_invest_success" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_usecoupon_invest_ccase.To_investTest.test_to_invest_success" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_login_case.LoginTest.test_login_success" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_recharge_case.RechargeTest.test_login_success" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_use_coupon_invest_case.To_investTest.test_to_invest_success" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_login_case.LoginTest.test_login_success" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_recharge_parametric_ccase.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_recharge_case.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_use_coupon_invest_case.To_investTest.test_to_invest_success" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_recharge_case.RechargeTest.test_login_success" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_login_case.LoginTest.test_login_success" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_usecoupon_invest_ccase.To_investTest.test_to_invest_success" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_use_coupon_invest_case.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_recharge_parametric_ccase.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in pppig_recharge_case.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_use_coupon_invest_case.To_investTest.test_to_invest_success" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_recharge_case.RechargeTest.test_login_success" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for pppig_login_case.LoginTest.test_login_success" />
       </list>
     </recent_temporary>
   </component>
@@ -876,25 +876,17 @@
       <option name="project" value="LOCAL" />
       <updated>1516961195227</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="添加注册获取验证码等待时间">
+      <created>1517887993716</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1517887993716</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_pppig_login_case_LoginTest_test_login_success - 2018.02.05 at 15h 56m 09s.xml">
-      <configuration name="Unittests for pppig_login_case.LoginTest.test_login_success" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_pppig_recharge_case_RechargeTest_test_login_success - 2018.02.05 at 15h 57m 58s.xml">
-      <configuration name="Unittests for pppig_recharge_case.RechargeTest.test_login_success" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_pppig_use_coupon_invest_case_To_investTest_test_to_invest_success - 2018.02.05 at 15h 28m 50s.xml">
-      <configuration name="Unittests for pppig_use_coupon_invest_case.To_investTest.test_to_invest_success" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_pppig_use_coupon_invest_case_To_investTest_test_to_invest_success - 2018.02.05 at 15h 33m 07s.xml">
-      <configuration name="Unittests for pppig_use_coupon_invest_case.To_investTest.test_to_invest_success" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_pppig_use_coupon_invest_case_To_investTest_test_to_invest_success - 2018.02.05 at 15h 37m 44s.xml">
-      <configuration name="Unittests for pppig_use_coupon_invest_case.To_investTest.test_to_invest_success" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_pppig_use_coupon_invest_case_To_investTest_test_to_invest_success - 2018.02.05 at 15h 59m 52s.xml">
       <configuration name="Unittests for pppig_use_coupon_invest_case.To_investTest.test_to_invest_success" configurationId="tests" />
     </history-entry>
@@ -907,12 +899,27 @@
     <history-entry file="Unittests_for_pppig_usecoupon_invest_ccase_To_investTest_test_to_invest_success - 2018.02.05 at 15h 40m 24s.xml">
       <configuration name="Unittests for pppig_usecoupon_invest_ccase.To_investTest.test_to_invest_success" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_pppig_recharge_case_py - 2018.02.08 at 13h 16m 17s.xml">
+      <configuration name="Unittests in pppig_recharge_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_pppig_recharge_parametric_ccase_py - 2018.02.06 at 11h 43m 18s.xml">
+      <configuration name="Unittests in pppig_recharge_parametric_ccase.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_pppig_recharge_parametric_ccase_py - 2018.02.06 at 11h 48m 56s.xml">
+      <configuration name="Unittests in pppig_recharge_parametric_ccase.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_pppig_recharge_parametric_ccase_py - 2018.02.09 at 09h 09m 55s.xml">
+      <configuration name="Unittests in pppig_recharge_parametric_ccase.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_pppig_recharge_parametric_ccase_py - 2018.02.12 at 08h 52m 55s.xml">
+      <configuration name="Unittests in pppig_recharge_parametric_ccase.py" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_in_pppig_use_coupon_invest_case_py - 2018.02.05 at 15h 29m 15s.xml">
       <configuration name="Unittests in pppig_use_coupon_invest_case.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1186" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -921,7 +928,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3539916" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35354477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -989,7 +996,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="142" />
+      <option name="time" value="143" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1199,16 +1206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#36#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/run_all_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2079">
-          <caret line="69" column="29" lean-forward="false" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1219,24 +1216,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_goRegister_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/date/register.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="64" lean-forward="false" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/date/recharge.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1247,18 +1230,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_parametric_ccase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/config/globalparameter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1266,7 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1282,7 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4851">
           <caret line="152" column="8" lean-forward="false" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1318,18 +1291,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_use_coupon_invest_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        <state relative-caret-position="891">
+          <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -1338,6 +1303,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1518396819703" expanded="true" signature="104575:104617" ph="..." />
+            <marker date="1518396819703" expanded="true" signature="104575:104635" ph="..." />
+            <marker date="1518396819703" expanded="true" signature="104575:104648" ph="..." />
+            <marker date="1518396819703" expanded="true" signature="104575:104663" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_goRegister_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/date/recharge.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_parametric_ccase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programe/run_all_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="69" column="29" lean-forward="false" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
           <folding />
         </state>
       </provider>
