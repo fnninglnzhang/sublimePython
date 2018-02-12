@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e52a6c4c-974f-4bb8-9ec5-510bcd75c829" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -116,10 +115,10 @@
             <state relative-caret-position="99">
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <marker date="1518396819703" expanded="true" signature="104575:104617" ph="..." />
-                <marker date="1518396819703" expanded="true" signature="104575:104635" ph="..." />
-                <marker date="1518396819703" expanded="true" signature="104575:104648" ph="..." />
-                <marker date="1518396819703" expanded="true" signature="104575:104663" ph="..." />
+                <marker date="1518396866452" expanded="true" signature="104553:104595" ph="..." />
+                <marker date="1518396866452" expanded="true" signature="104553:104613" ph="..." />
+                <marker date="1518396866452" expanded="true" signature="104553:104626" ph="..." />
+                <marker date="1518396866452" expanded="true" signature="104553:104641" ph="..." />
               </folding>
             </state>
           </provider>
@@ -883,7 +882,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517887993716</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="没改东西">
+      <created>1518396881357</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1518396881357</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -950,7 +956,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change  connectmysql" />
     <MESSAGE value="add wait" />
     <MESSAGE value="register page" />
     <MESSAGE value="Opendepository" />
@@ -975,7 +980,8 @@
     <MESSAGE value="增加了登录的不同场景" />
     <MESSAGE value="登录的不同场景&#10;执行用例成功写到日志里&#10;不成功，错误原因写到日志里" />
     <MESSAGE value="添加注册获取验证码等待时间" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加注册获取验证码等待时间" />
+    <MESSAGE value="没改东西" />
+    <option name="LAST_COMMIT_MESSAGE" value="没改东西" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1304,10 +1310,10 @@
         <state relative-caret-position="99">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1518396819703" expanded="true" signature="104575:104617" ph="..." />
-            <marker date="1518396819703" expanded="true" signature="104575:104635" ph="..." />
-            <marker date="1518396819703" expanded="true" signature="104575:104648" ph="..." />
-            <marker date="1518396819703" expanded="true" signature="104575:104663" ph="..." />
+            <marker date="1518396866452" expanded="true" signature="104553:104595" ph="..." />
+            <marker date="1518396866452" expanded="true" signature="104553:104613" ph="..." />
+            <marker date="1518396866452" expanded="true" signature="104553:104626" ph="..." />
+            <marker date="1518396866452" expanded="true" signature="104553:104641" ph="..." />
           </folding>
         </state>
       </provider>
