@@ -5,9 +5,9 @@ import time,os
 配置全局参数
 '''
 # 项目的绝对路径（因为 windows执行时需要绝对路径才能执行通过）
-# project_path = "D:\\for2017\\SPframework-Helen_2.0\\"
+project_path = "E:\\python\\demo\\sublimePython\\test_programe\\"
 # 获取项目路径
-project_path = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)[0]), '.'))
+# project_path = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)[0]), '..'))
 print('project_path' + project_path)
 # 测试用例代码存放路径（用于构建suite,注意该文件夹下的文件都应该以test开头命名）
 test_case_path = project_path+"\\mail\\test_case"
@@ -29,6 +29,7 @@ smtp_sever = 'mail.**.com'  # 邮箱SMTP服务，各大运营商的smtp服务可
 email_name = "SDS@**.com"  # 发件人名称
 email_password = "****"  # 发件人登录密码
 email_To = '5047**0@qq.com;54*0016@qq.com;hel**ter@163.com'  # 收件人
+
 
 
 
