@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e52a6c4c-974f-4bb8-9ec5-510bcd75c829" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/config/globalparameter.py" afterPath="$PROJECT_DIR$/test_programe/config/globalparameter.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -105,8 +104,8 @@
       <file leaf-file-name="pppig_recharge_parametric_ccase.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_parametric_ccase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="45" />
+            <state relative-caret-position="495">
+              <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -472,13 +471,6 @@
       <option name="presentableId" value="Default" />
       <updated>1513559230000</updated>
     </task>
-    <task id="LOCAL-00001" summary="connect_mysql">
-      <created>1514956337486</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1514956337486</updated>
-    </task>
     <task id="LOCAL-00002" summary="connect_mysql">
       <created>1514959840413</created>
       <option name="number" value="00002" />
@@ -815,7 +807,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518396889448</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="充值数据">
+      <created>1519264980045</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1519264980045</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -882,7 +881,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add wait" />
     <MESSAGE value="register page" />
     <MESSAGE value="Opendepository" />
     <MESSAGE value="Opendepository1" />
@@ -907,7 +905,8 @@
     <MESSAGE value="登录的不同场景&#10;执行用例成功写到日志里&#10;不成功，错误原因写到日志里" />
     <MESSAGE value="添加注册获取验证码等待时间" />
     <MESSAGE value="没改东西" />
-    <option name="LAST_COMMIT_MESSAGE" value="没改东西" />
+    <MESSAGE value="充值数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="充值数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1257,8 +1256,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_parametric_ccase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="45" />
+        <state relative-caret-position="495">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding />
         </state>
       </provider>
