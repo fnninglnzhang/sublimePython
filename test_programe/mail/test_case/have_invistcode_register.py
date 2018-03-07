@@ -17,14 +17,14 @@ class RegisterTest(myunit.MyTest):
         sleep(2)
         poRegistercode = SelectMySQL()
         poRegister.open()
-        username = 18390206719
+        username = 18565400667
         poRegister.goregisternoinvite1_Action(username, "111111", "1111")
         sleep(2)
         checkCode = poRegistercode.select_Data("select validCode from mobile_authen where mobile={} and mobileAuthenid>3399000 ORDER BY sendTime desc limit 0,1".format(username))
-        poRegister.goregisternoinvite2_Action(checkCode)
+        poRegister.goregisterokinvite_Action(checkCode, '04257802')
         poopendepository = Opendepository(self.driver)
         poopendepository.opendepository1_Action()
         sleep(2)
-        poopendepository.opendepository2_Action("李测试账户一", "310101198711100739", "3005752441907154511", "111111")
+        poopendepository.opendepository2_Action("李测试账户三", "310101198909029499", "3005108627957482010", "111111")
 
         function.insert_img(self.driver, "success.png")

@@ -190,3 +190,8 @@ class To_invest(Page):
 	def pppiguse_no_Coupon_Invest_Action(self, text):
 		self.pppiginvestment_Amount(text)
 		self.pppiginvestment_Amount_button()
+
+	# 余额全投——不适用卡券
+	def pppiguse_NoRedpacket_Invest_All_Action(self):
+		self.pppigbalance_of_the_whole_cast()
+		self.pppiginvestment_Amount_button()

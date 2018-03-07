@@ -32,6 +32,8 @@ class GoRegister(Page):
 	pppiggoregister_agreement_text = (By.ID, 'agreement')
 	# 注册按钮
 	pppiggoregister_button_text = (By.XPATH, ".//*[@id='registerUser']/div/a")
+	# 退出系统
+	pppiggoregister_close_button_text = (By.XPATH, ".//*[@id='registerUser']/div/a")
 
 	# 把每一个元素封装成一个方法
 	# 我要出借
@@ -78,6 +80,9 @@ class GoRegister(Page):
 	def pppiggoregister_Button(self):
 		self.find_element(*self.pppiggoregister_button_text).click()
 
+	# 退出系统
+
+
 	# 无邀请码点击获取验证码
 	def goregisternoinvite1_Action(self, mobilePhone, password, checkTuCode):
 		self.pppiggoregister_User_Role1()
@@ -90,8 +95,19 @@ class GoRegister(Page):
 	def goregisternoinvite2_Action(self, checkCode):
 			self.pppiggoregister_Message_CheckCode(checkCode)
 			self.pppiggoregister_Agreement()
-			# sleep(2)                                                 # 注册可能出现问题，强制等待两秒    直接关浏览器了，不好用
+			sleep(1)                                                 # 注册可能出现问题，强制等待两秒    直接关浏览器了，不好用
 			self.pppiggoregister_Button()
+			# sleep(3)
+
+	# 有邀请码验证码
+	def goregisterokinvite_Action(self, checkCode, invitenumber):
+		self.pppiggoregister_Message_CheckCode(checkCode)
+		self.pppiggoregister_Referral_invitation_code_button()
+		self.pppiggoregister_Agreement()
+		self.pppiggoregister_Invite_number(invitenumber)
+		sleep(1)  # 注册可能出现问题，强制等待两秒    直接关浏览器了，不好用
+		self.pppiggoregister_Button()
+		sleep(3)
 
 	# 无邀请码
 	def goregisternoinvite_Action(self, mobilePhone, password, checkTuCode, checkCode,):
