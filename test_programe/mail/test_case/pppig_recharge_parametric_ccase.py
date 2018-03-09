@@ -25,14 +25,13 @@ class RechargeTest(myunit.MyTest):
 				pologin.pppiglogin_noclose_Action(username, password)
 				sleep(2)
 				porecharge = Recharge(self.driver)
-				# 充值 -- 充值金额 -- 获取短信验证码按钮
+				# 充值 -- 充值金额 -- 立即充值
 				amount = '9000000'
 				porecharge.recharge1_Action(amount)
-				# 手动输入验证码
-				sleep(15)
-				# 立即充值
-				porecharge.recharge2_Action()
-				sleep(5)
+				# 江西充值页面_已加入手动输入验证码
+				sleep(1)
+				porecharge.jx_recharge_Action('111111')
+				sleep(1)
 				print(username+'用户充值成功')
 				function.insert_img(self.driver, "pppig_recharge_success.png")
 				sleep(1)

@@ -18,13 +18,13 @@ class To_investTest(myunit.MyTest):
                 po = LoginPage(self.driver)
                 sleep(2)
                 po.open()
-                username = '13011111112'
+                username = '17650254321'
                 po.pppiglogin_noclose_Action(username, "111111")
                 sleep(2)
-                po.open_R('/recommendloanDetail?loanId=35564')
+                po.open_R('/recommendloanDetail?loanId=35503')
                 po1 = To_invest(self.driver)
                 sleep(2)
-                amount = '39000'
+                # amount = '39000'
                 # po1.pppiguse_ratecoupon_Invest_Action(amount)
                 # 使用红包
                 # po1.pppiguse_Redpacket_Invest_Action(amount)
