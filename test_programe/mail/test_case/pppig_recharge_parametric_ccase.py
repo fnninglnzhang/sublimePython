@@ -38,7 +38,6 @@ class RechargeTest(myunit.MyTest):
 				pologout = LoginPage(self.driver)
 				pologout.pppiglogin_close_button()
 				sleep(1)
-				pologout.pppiglogin_close_button()
 		except BaseException as e:
 			print(e)
 

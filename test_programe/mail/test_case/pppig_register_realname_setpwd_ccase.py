@@ -37,10 +37,12 @@ class RegisterTest(myunit.MyTest):
                 poRegister.goregisternoinvite2_Action(checkCode)
                 # 实名认证
                 poopendepository = Opendepository(self.driver)
+                # 立即开通银行存管
                 poopendepository.opendepository1_Action()
                 sleep(2)
-                poopendepository.opendepository2_Action(realname, idcode, bankcard, "111111")
-                # self.assertEqual(u'开户成功', poopendepository.pppigsuccessful_Opening_an_account())
+                poopendepository.opendepository2_Action(realname, idcode, bankcard)
+                # 江西银行-网贷资金存管账户开立-银行卡号
+                poopendepository.opendepository3_Action(bankcard)
                 # 点击前往我的账户
                 poopendepository.pppigto_Go_myaccount()
                 # 有一个跳转的过程要加等待
@@ -50,6 +52,7 @@ class RegisterTest(myunit.MyTest):
                 sleep(2)
                 poset_transaction_password.pppigset_Transaction_password_Action('111111', '111111')
                 sleep(10)
+
                 pologout = LoginPage(self.driver)
                 pologout.pppiglogin_close_button()
         except BaseException as e:

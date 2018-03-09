@@ -9,8 +9,10 @@ from selenium import webdriver
 
 #页面对象（PO）登录页面
 class Opendepository(Page):
-    # 立即开通银行存管
+    # 立即开通银行存管（注册）
     pppigopendepository_btn_text = (By.XPATH, "html/body/div[4]/div/a[1]")
+    # 立即开通银行存管（重新登录）
+    pppigopendepository_repeat_btn_text = (By.XPATH, "html/body/div[4]/div[3]/a")
     # 暂不开通银行存管
     pppignotopendepository_btn_text = (By.XPATH, "html/body/div[4]/div/a[2]")
     # 开通银行账户真实姓名
@@ -35,11 +37,30 @@ class Opendepository(Page):
     pppigsuccessful_opening_an_account_text = (By.XPATH, "html/body/div[4]/div/div/h2")
     # 前往我的账户
     pppigto_Go_myaccount_text = (By.XPATH, "html/body/div[4]/div/div/a[2]")
+    # 绑定卡号
+    pppigopendepository_jx_binding_card_text = (By.ID, "BIND_CARD_NO")
+    # 获取验证码
+    pppigopendepository_jx_getimaggecode_button_text = (By.ID, "smsBtn")
+    # 同意协议
+    pppigsuccessful_jx_agree_product_text = (By.ID, "mainAcceptIpt")
+    # 确认
+    pppigsuccessful_jx_agree_button_text = (By.ID, "sub")
+
+
+
+
+
+
+
 
     # 把每一个元素封装成一个方法
-    # 立即开通银行存管
+    # 立即开通银行存管（注册）
     def pppigopendepository_Btn(self):
         self.find_element(*self.pppigopendepository_btn_text).click()
+
+    # 立即开通银行存管（重新登录）
+    def pppigopendepository_repeat_btn(self):
+        self.find_element(*self.pppigopendepository_repeat_btn_text).click()
 
     # 暂不开通银行存管
     def pppignotopendepository_Btn(self):
@@ -63,6 +84,8 @@ class Opendepository(Page):
 
     # 开通银行账户修改手机号修改
     def pppigopendepository_Jx_modify_phone_numbers(self, text):
+        self.find_element(*self.pppigopendepository_jx_modify_phone_numbers_text).click()
+        self.find_element(*self.pppigopendepository_jx_modify_phone_numbers_text).clear()
         self.find_element(*self.pppigopendepository_jx_modify_phone_numbers_text ).send_keys(text)
 
     # 开通银行账户获取验证码点击事件
@@ -90,11 +113,38 @@ class Opendepository(Page):
     def pppigto_Go_myaccount(self):
         self.find_element(*self.pppigto_Go_myaccount_text).click()
 
+    # 绑定卡号
+    def pppigopendepository_jx_binding_card(self, text):
+        self.find_element(*self.pppigopendepository_jx_binding_card_text ).send_keys(text)
 
+    # 获取验证码
+    def pppigopendepository_jx_getimaggecode_button(self):
+        self.find_element(*self.pppigopendepository_jx_getimaggecode_button_text ).click()
+
+    # 同意协议
+    def pppigsuccessful_jx_agree_product(self):
+        return self.find_element(*self.pppigsuccessful_jx_agree_product_text ).click()
+
+    # 确认
+    def pppigsuccessful_jx_agree_button(self):
+        self.find_element(*self.pppigsuccessful_jx_agree_button_text ).click()
+
+
+
+
+
+
+
+    # 注册
     def opendepository1_Action(self):
         self.pppigopendepository_Btn()
+    # 重新登录
+    def opendepository_repeat_Action(self):
+        self.pppigopendepository_repeat_btn()
 
 
+    """
+    # 合规前
     def opendepository2_Action(self, realname, idnumber, bankcard, checkcode):
         self.pppigopendepository_Jx_real_name(realname)
         self.pppigopendepository_Jx_ID_number(idnumber)
@@ -103,3 +153,25 @@ class Opendepository(Page):
         self.pppigopendepository_Jx_message_checkcode(checkcode)
         self.pppigopendepository_Jx_agreement()
         self.pppigopendepository_Jx_agree()
+    """
+
+    # 合规后_身份录入
+    def opendepository2_Action(self, realname, idnumber, bankcard, cellphone='15120080522'):
+        self.pppigopendepository_Jx_real_name(realname)
+        self.pppigopendepository_Jx_ID_number(idnumber)
+        self.pppigopendepository_Jx_credit_card_numbers(bankcard)
+        self.pppigopendepository_Jx_modify_phone_numbers(cellphone)
+        self.pppigopendepository_Jx_agreement()
+        self.pppigopendepository_Jx_agree()
+
+
+
+    # 合规后_存管账户开立
+    def opendepository3_Action(self, cardnumber):
+        self.pppigopendepository_jx_binding_card(cardnumber)
+        self.pppigopendepository_jx_getimaggecode_button()
+        # 手动输入验证码
+        sleep(15)
+        self.pppigsuccessful_jx_agree_product()
+        self.pppigsuccessful_jx_agree_button()
+
