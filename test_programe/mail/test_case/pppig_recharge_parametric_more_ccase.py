@@ -12,7 +12,7 @@ sys.path.append('./page_obj')
 
 class RechargeTest(myunit.MyTest):
 	def test_login_success(self):
-		'''参数化、用户名、密码正确,登录成功'''
+		'''充值'''
 		try:
 			f = open('../date/recharge.txt')
 			lines = f.readlines()

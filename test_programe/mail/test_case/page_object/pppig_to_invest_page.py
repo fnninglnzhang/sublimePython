@@ -29,8 +29,8 @@ class To_invest(Page):
 	pppiguse_red_packet_text = (By.XPATH, "html/body/div[8]/div/div[3]/div[1]/div/ul/li[1]/span[5]/input")
 
 	# 使用加息券
+	# pppiguse_rate_coupon_text = (By.XPATH, ".//*[@id='active_ul']/li[1]/span[5]/input")
 	pppiguse_rate_coupon_text = (By.XPATH, ".//*[@id='active_ul']/li[1]/span[5]/input")
-
 	# 确定使用
 	pppigenteruse_coupon_text = (By.XPATH, ".//*[@id='wxy_submit']/input")
 
