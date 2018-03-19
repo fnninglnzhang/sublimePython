@@ -16,19 +16,22 @@ class LoginTest(myunit.MyTest):
     def test_login_success(self):
         '''修改手机号'''
         # try:
-        po = LoginPage(self.driver)
-        po.open()
-        username = '18079409047'
-        po.pppiglogin_noclose_Action(username, '111111')
-        sleep(2)
+        f = open('../date/findcellphone.txt')
+        lines = f.readlines()
+        for line in lines:
+            username = line.split(',')[0]
+            po = LoginPage(self.driver)
+            po.open()
+            po.pppiglogin_noclose_Action(username, '111111')
+            sleep(2)
 
 
 
-        # 修改手机号
-        pomodifyphone = Modify_cellphone_Page(self.driver)
-        pomodifyphone.pppigmodify_phone_Action('15120080522', username)
-        # except BaseException as e:
-        #     print(e)
+            # 修改手机号
+            pomodifyphone = Modify_cellphone_Page(self.driver)
+            pomodifyphone.pppigmodify_phone_Action('15120080522', username)
+            # except BaseException as e:
+            #     print(e)
 
 
 

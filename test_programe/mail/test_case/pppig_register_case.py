@@ -22,9 +22,6 @@ class RegisterTest(myunit.MyTest):
         sleep(2)
         checkCode = poRegistercode.select_Data("select validCode from mobile_authen where mobile={} and mobileAuthenid>3399000 ORDER BY sendTime desc limit 0,1".format(username))
         poRegister.goregisternoinvite2_Action(checkCode)
-        poopendepository = Opendepository(self.driver)
-        poopendepository.opendepository1_Action()
-        sleep(2)
-        poopendepository.opendepository2_Action("李测试账户零", "31010119750211403X", "3005946502677770214", "111111")
+
 
         function.insert_img(self.driver, "success.png")

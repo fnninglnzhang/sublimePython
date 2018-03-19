@@ -18,10 +18,10 @@ class To_investTest(myunit.MyTest):
                 po = LoginPage(self.driver)
                 sleep(2)
                 po.open()
-                username = '13011111111'
+                username = '18079409047'
                 po.pppiglogin_noclose_Action(username, "111111")
                 sleep(2)
-                po.open_R('/recommendloanDetail?loanId=35756')
+                po.open_R('/recommendloanDetail?loanId=35828')
                 po1 = To_invest(self.driver)
                 sleep(2)
                 amount = '17100'
@@ -32,6 +32,8 @@ class To_investTest(myunit.MyTest):
                 # po1.pppiguse_no_Coupon_Invest_Action(amount)
                 # 不使用卡券余额全投
                 po1.pppiguse_NoRedpacket_Invest_All_Action()
+                # 余额全投——使用红包——即刻投资
+                # po1.pppiguse_Redpacket_Invest_All_Action()
                 sleep(2)
                 po1.pppiginvest_Action3("1111")
                 sleep(2)

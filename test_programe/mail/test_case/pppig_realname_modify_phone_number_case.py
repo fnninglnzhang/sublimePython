@@ -18,7 +18,7 @@ class LoginTest(myunit.MyTest):
         try:
             po = LoginPage(self.driver)
             po.open()
-            username = '18079409047'
+            username = '13561738541'
             po.pppiglogin_noclose_Action(username, '111111')
             sleep(2)
 
@@ -27,8 +27,8 @@ class LoginTest(myunit.MyTest):
             poopendepository.opendepository_repeat_Action()
             sleep(2)
             # poopendepository.opendepository2_Action(realname, idcode, bankcard)
-            bankcard = '3005229650080765337'
-            poopendepository.opendepository2_Action('李测试账户一', '310101198807252788', bankcard)
+            bankcard = '3005879960676886'
+            poopendepository.opendepository2_Action('李测试账户六', '310101197709115953', bankcard)
             # 江西银行-网贷资金存管账户开立-银行卡号
             poopendepository.opendepository3_Action(bankcard)
             # 跳转等待

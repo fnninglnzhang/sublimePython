@@ -14,7 +14,7 @@ class RechargeTest(myunit.MyTest):
 	def test_login_success(self):
 		'''充值'''
 		try:
-			f = open('../date/recharge.txt')
+			f = open('../date/recharge/recharge.txt')
 			lines = f.readlines()
 			for line in lines:
 				username = line.split(',')[0]

@@ -14,7 +14,7 @@ class To_investTest(myunit.MyTest):
     def test_to_invest_success(self):
         '''投资'''
         try:
-            f = open('../date/invest.txt')
+            f = open('../date/invest/invest1.txt')
             lines = f.readlines()
             for line in lines:
                 username = line.split(',')[0]
@@ -24,22 +24,26 @@ class To_investTest(myunit.MyTest):
                 po.open()
                 po.pppiglogin_noclose_Action(username, "111111")              # 用户登陆
                 sleep(2)
-                po.open_R('/recommendloanDetail?loanId=35550')                    # 标的 URL
+                po.open_R('/recommendloanDetail?loanId=35999')                    # 标的 URL
                 po1 = To_invest(self.driver)
                 sleep(2)
-                # po1.pppiguse_no_Coupon_Invest_Action(investmentamount)                # 不使用卡券投资
-                # po1.pppiguse_ratecoupon_Invest_Action(investmentamount)               # 投资金额   使用加息券
-                po1.pppiguse_Redpacket_Invest_Action(investmentamount)                            # 投资金额   使用红包
-                # po1.pppiguse_Redpacket_Invest_All_Action()                           # 余额全投   使用红包
-                # po1.pppiguse_Rate_Coupon_Invest_All_Action()                         # 余额全投   使用加息券
+                # 使用加息券
+                # po1.pppiguse_ratecoupon_Invest_Action(investmentamount)
+                # 使用红包
+                # po1.pppiguse_Redpacket_Invest_Action(investmentamount)
+                # 不使用卡券
+                # po1.pppiguse_no_Coupon_Invest_Action(investmentamount)
+                # 不使用卡券余额全投
+                po1.pppiguse_NoRedpacket_Invest_All_Action()                       # 余额全投   使用加息券
                 sleep(2)
                 po1.pppiginvest_Action3("1111")                                       # 图形验证码
                 sleep(2)
                 po1.pppiginvest_Action4("111111")                                     # 交易密码
-                sleep(10)
+                sleep(2)
+                poclose = LoginPage(self.driver)
+                poclose.pppiglogin_close_button()
                 function.insert_img(self.driver, "invest_success.png")               # 截图
                 print('投资成功')
-                LoginPage.pppiglogin_close_button(self.driver).click()
 
         except BaseException as e:
             print(e)
