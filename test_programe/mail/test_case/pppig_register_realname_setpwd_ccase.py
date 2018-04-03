@@ -30,7 +30,10 @@ class RegisterTest(myunit.MyTest):
                 poRegistercode = SelectMySQL()
                 poRegister.open()
                 # 下方用例包含点击获取验证码
+                # 我要出借
                 poRegister.goregisternoinvite1_Action(username, password, "1111")
+                # 我要借款
+                # poRegister.goregisternoinvite3_Action(username, password, "1111")
                 sleep(2)
                 checkCode = poRegistercode.select_Data("select validCode from mobile_authen where mobile= {} and mobileAuthenid>3399000 ORDER BY sendTime desc limit 0,1".format(username))
                 # 下方用例包含输入验证码 - 同意协议 - 点击注册
@@ -52,7 +55,6 @@ class RegisterTest(myunit.MyTest):
                 sleep(2)
                 poset_transaction_password.pppigset_Transaction_password_Action('111111', '111111')
                 sleep(10)
-
                 pologout = LoginPage(self.driver)
                 pologout.pppiglogin_close_button()
         except BaseException as e:

@@ -24,12 +24,10 @@ class LoginTest(myunit.MyTest):
             po.open()
             po.pppiglogin_noclose_Action(username, '111111')
             sleep(2)
-
-
-
             # 修改手机号
             pomodifyphone = Modify_cellphone_Page(self.driver)
             pomodifyphone.pppigmodify_phone_Action('15120080522', username)
+            sleep(5)
             # except BaseException as e:
             #     print(e)
 

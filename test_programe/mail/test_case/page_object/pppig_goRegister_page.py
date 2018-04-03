@@ -132,3 +132,11 @@ class GoRegister(Page):
 		self.pppiggoregister_Invite_number(invitenumber)
 		self.pppiggoregister_Agreement()
 		self.pppiggoregister_Button()
+
+	# 无邀请码借款人
+	def goregisternoinvite3_Action(self, mobilePhone, password, checkTuCode):
+		self.pppiggoregister_User_Role2()
+		self.pppiggoregister_MobilePhone(mobilePhone)
+		self.pppiggoregister_Password(password)
+		self.pppiggoregister_CheckTuCode(checkTuCode)
+		self.pppiggoregister_GetCodeButton()

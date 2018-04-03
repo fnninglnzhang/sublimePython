@@ -13,7 +13,7 @@ from model.oldconnect_mysql import *
 class RegisterTest(myunit.MyTest):
 
 	def test_register_success(self):
-		'''注册'''
+		'''只是参数化注册'''
 		f = open('../date/onlyregister.txt')
 		lines = f.readlines()
 		for line in lines:
@@ -22,7 +22,10 @@ class RegisterTest(myunit.MyTest):
 			sleep(2)
 			poRegistercode = SelectMySQL()
 			poRegister.open()
+			# 我要出借
 			poRegister.goregisternoinvite1_Action(username, "111111", "1111")
+			# 我要借款
+			# poRegister.goregisternoinvite3_Action(username, "111111", "1111")
 			sleep(3)
 			checkCode = poRegistercode.select_Data("select validCode from mobile_authen where mobile={} and mobileAuthenid>3399000 ORDER BY sendTime desc limit 0,1".format(username))
 			poRegister.goregisternoinvite2_Action(checkCode)

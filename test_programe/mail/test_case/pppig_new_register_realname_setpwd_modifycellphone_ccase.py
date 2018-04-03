@@ -35,7 +35,9 @@ class RegisterTest(myunit.MyTest):
 				sleep(2)
 				checkCode = poRegistercode.select_Data("select validCode from mobile_authen where mobile= {} and mobileAuthenid>3399000 ORDER BY sendTime desc limit 0,1".format(username))
 				# 下方用例包含输入验证码 - 同意协议 - 点击注册
-				poRegister.goregisternoinvite2_Action(checkCode)
+				# poRegister.goregisternoinvite2_Action(checkCode)
+				# 有邀请码
+				poRegister.goregisterokinvite_Action(checkCode, '18084167')
 				# 实名认证
 				poopendepository = Opendepository(self.driver)
 				# 立即开通银行存管
