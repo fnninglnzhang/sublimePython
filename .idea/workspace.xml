@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e52a6c4c-974f-4bb8-9ec5-510bcd75c829" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/report/image/invest_success.png" afterPath="$PROJECT_DIR$/test_programe/mail/report/image/invest_success.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/report/image/pppig_recharge_success.png" afterPath="$PROJECT_DIR$/test_programe/mail/report/image/pppig_recharge_success.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/date/findcellphone.txt" afterPath="$PROJECT_DIR$/test_programe/mail/date/findcellphone.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/date/invest.txt" afterPath="$PROJECT_DIR$/test_programe/mail/date/invest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/date/invest/invest1.txt" afterPath="$PROJECT_DIR$/test_programe/mail/date/invest/invest1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/date/onlyregister.txt" afterPath="$PROJECT_DIR$/test_programe/mail/date/onlyregister.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/date/recharge.txt" afterPath="$PROJECT_DIR$/test_programe/mail/date/recharge.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/date/register.txt" afterPath="$PROJECT_DIR$/test_programe/mail/date/register.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_goRegister_page.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/page_object/pppig_goRegister_page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_modify_phone_number_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_modify_phone_number_case.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_onlyregister_parametric.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_onlyregister_parametric.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_realname_modify_phone_number_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_realname_modify_phone_number_case.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_recharge_case.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_realname_setpwd_ccase.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_register_realname_setpwd_ccase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_usecoupon_invest_ccase.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_usecoupon_invest_ccase.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_new_register_realname_setpwd_ccase.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_new_register_realname_setpwd_modifycellphone_ccase.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_programe/mail/test_case/test_ccase.py" afterPath="$PROJECT_DIR$/test_programe/mail/test_case/pppig_setpwd.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -575,13 +558,6 @@
       <option name="presentableId" value="Default" />
       <updated>1513559230000</updated>
     </task>
-    <task id="LOCAL-00008" summary="closenotice">
-      <created>1515060298041</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1515060298041</updated>
-    </task>
     <task id="LOCAL-00009" summary="closenotice">
       <created>1515060304259</created>
       <option name="number" value="00009" />
@@ -918,7 +894,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521452353032</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="批量参数化">
+      <created>1522718797874</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1522718797874</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -985,7 +968,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="参数化" />
     <MESSAGE value="文件路径" />
     <MESSAGE value="余额全投&#10;独立封装江西交易密码类（不好用）&#10;使用卡券投资&#10;提现（江西的交易密码页面元素属性不一致）" />
     <MESSAGE value="参数化登录和登陆" />
@@ -1010,7 +992,8 @@
     <MESSAGE value="合规接口，修改手机号" />
     <MESSAGE value="参数化数据日常维护" />
     <MESSAGE value="借款人账户受托确认" />
-    <option name="LAST_COMMIT_MESSAGE" value="借款人账户受托确认" />
+    <MESSAGE value="批量参数化" />
+    <option name="LAST_COMMIT_MESSAGE" value="批量参数化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1267,6 +1250,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1274,6 +1258,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1281,6 +1266,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1089">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1288,6 +1274,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="618">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1295,6 +1282,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="61" lean-forward="false" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
