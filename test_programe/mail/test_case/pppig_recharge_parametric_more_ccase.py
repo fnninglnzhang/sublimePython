@@ -2,6 +2,8 @@
 # -*- coding: UTF-8 -*-
 from time import sleep
 import unittest, random, sys
+
+from model import log
 from model import myunit, function
 from page_object.pppig_login_page import LoginPage
 from page_object.pppig_recharge_page import Recharge

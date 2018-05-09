@@ -13,3 +13,8 @@
 1515052726575	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
 1515052726586	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56934
 1515052728372	Marionette	INFO	Listening on port 56934
+1525829037802	geckodriver	INFO	Listening on 127.0.0.1:2390
+1525829038228	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.f8oKT22rrHRA
+1525829038242	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1525829038290	geckodriver::marionette	INFO	Connecting to Marionette on localhost:2394
+1525829043682	Marionette	INFO	Listening on port 2394

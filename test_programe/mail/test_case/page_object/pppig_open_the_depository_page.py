@@ -33,6 +33,8 @@ class Opendepository(Page):
     pppigopendepository_jx_agreement_text = (By.ID, "agreement")
     # 开通银行账户立即开通
     pppigopendepository_jx_agree_text = (By.ID, "KH_button")
+    # pppigopendepository_jx_agree_text = (By.XPATH, "//*[@id='KH_button]")
+
     # 开户成功    用于断言开户成功
     pppigsuccessful_opening_an_account_text = (By.XPATH, "html/body/div[4]/div/div/h2")
     # 前往我的账户
@@ -162,6 +164,7 @@ class Opendepository(Page):
         self.pppigopendepository_Jx_credit_card_numbers(bankcard)
         self.pppigopendepository_Jx_modify_phone_numbers(cellphone)
         self.pppigopendepository_Jx_agreement()
+        sleep(1)
         self.pppigopendepository_Jx_agree()
 
 
@@ -171,7 +174,7 @@ class Opendepository(Page):
         self.pppigopendepository_jx_binding_card(cardnumber)
         self.pppigopendepository_jx_getimaggecode_button()
         # 手动输入验证码
-        sleep(11)
+        sleep(15)
         self.pppigsuccessful_jx_agree_product()
         self.pppigsuccessful_jx_agree_button()
 

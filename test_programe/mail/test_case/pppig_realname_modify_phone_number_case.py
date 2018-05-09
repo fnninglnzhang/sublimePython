@@ -14,7 +14,7 @@ from page_object.pppig_set_transaction_password_page import SetTransactionPWD
 class LoginTest(myunit.MyTest):
 
     def test_login_success(self):
-        '''开通银行存管，修改手机号'''
+        '''开通银行存管，设置交易密码，修改手机号'''
         try:
 
             f = open('../date/register.txt')
@@ -38,9 +38,10 @@ class LoginTest(myunit.MyTest):
                 # poopendepository.opendepository2_Action(realname, idcode, bankcard)
                 poopendepository.opendepository2_Action(realname, idcode, bankcard)
                 # 江西银行-网贷资金存管账户开立-银行卡号
+                sleep(1)
                 poopendepository.opendepository3_Action(bankcard)
                 # 跳转等待
-                sleep(7)
+                sleep(6)
                 # 点击前往我的账户
                 poopendepository.pppigto_Go_myaccount()
                 # 有一个跳转的过程要加等待
@@ -53,6 +54,9 @@ class LoginTest(myunit.MyTest):
                 # 修改手机号
                 pomodifyphone = Modify_cellphone_Page(self.driver)
                 pomodifyphone.pppigmodify_phone_Action('15120080522', username)
+                pologout = LoginPage(self.driver)
+                pologout.pppiglogin_close_button()
+                print(username +'充值成功！！！')
         except BaseException as e:
             print(e)
 

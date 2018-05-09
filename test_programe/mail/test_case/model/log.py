@@ -52,3 +52,4 @@ class log:
 
     def error(self, msg):
         self.setMSG('error', msg)
+

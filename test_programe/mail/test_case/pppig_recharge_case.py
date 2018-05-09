@@ -2,6 +2,8 @@
 # -*- coding: UTF-8 -*-
 from time import sleep
 import unittest, random, sys
+
+from model.log import log
 from model import myunit, function
 from page_object.pppig_login_page import LoginPage
 from page_object.pppig_recharge_page import Recharge
@@ -16,12 +18,13 @@ class RechargeTest(myunit.MyTest):
 		pologin = LoginPage(self.driver)
 		pologin.open()
 		sleep(1)
-		username = '13741158479'
+		username = 13011111101
 		pologin.pppiglogin_noclose_Action(username, '111111')
 		sleep(2)
 		porecharge = Recharge(self.driver)
 		# 充值 -- 充值金额 -- 获取短信验证码按钮
-		porecharge.recharge1_Action('9000000')
+		amount = 9000000
+		porecharge.recharge1_Action(amount)
 		# 江西充值页面_已加入手动输入验证码
 		porecharge.jx_recharge_Action('111111')
 		# 手动输入验证码
@@ -29,6 +32,10 @@ class RechargeTest(myunit.MyTest):
 		# 立即充值
 		# porecharge.pppigalertenter_button()
 		sleep(5)
+		logger_info = log()
+		logger_info.setMSG('info', " + '充值成功'")
+
+
 		print(username+'充值成功')
 		function.insert_img(self.driver, "pppig_recharge_success.png")
 

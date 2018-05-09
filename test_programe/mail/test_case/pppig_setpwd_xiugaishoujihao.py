@@ -7,22 +7,23 @@ from page_object.pppig_login_page import LoginPage
 from page_object.pppig_recharge_page import Recharge
 from page_object.pppig_set_transaction_password_page import SetTransactionPWD
 from page_object.mail_page import MailPage
-sys.path.append('./model')
-sys.path.append('./page_obj')
+from pppig_modify_phone_number_page import Modify_cellphone_Page
 
-class RechargeTest(myunit.MyTest):
-	def test_login_success(self):
-		'''充值'''
-		# try:
+class Setpwd_changmblTest(myunit.MyTest):
+	def test_setpwd_changembl(self):
+		u'''设置交易密码，修改手机号'''
 		pologin = LoginPage(self.driver)
 		pologin.open()
-		pologin.pppiglogin_noclose_Action('13294756409', '111111')
+		username = 15110867276
+		pologin.pppiglogin_noclose_Action(username, '111111')
 		sleep(1)
 		# 设置交易密码
 		poset_transaction_password = SetTransactionPWD(self.driver)
 		sleep(2)
 		poset_transaction_password.pppigset_Transaction_password_Action('111111', '111111')
 		sleep(10)
+		pomodifyphone = Modify_cellphone_Page(self.driver)
+		pomodifyphone.pppigmodify_phone_Action('15120080522', username)
 
 
 
