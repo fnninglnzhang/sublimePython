@@ -16,7 +16,7 @@ class RechargeTest(myunit.MyTest):
 		# try:
 		pologin = LoginPage(self.driver)
 		pologin.open()
-		pologin.pppiglogin_noclose_Action('13915953341', '111111')
+		pologin.pppiglogin_noclose_Action('15647510953', '111111')
 		sleep(1)
 		# 设置交易密码
 		poset_transaction_password = SetTransactionPWD(self.driver)

@@ -37,7 +37,7 @@ class RegisterTest(myunit.MyTest):
 				# 下方用例包含输入验证码 - 同意协议 - 点击注册
 				# poRegister.goregisternoinvite2_Action(checkCode)
 				# 有邀请码
-				poRegister.goregisterokinvite_Action(checkCode, '18084167')
+				poRegister.goregisterokinvite_Action(checkCode, '43676626')
 				# 实名认证
 				poopendepository = Opendepository(self.driver)
 				# 立即开通银行存管

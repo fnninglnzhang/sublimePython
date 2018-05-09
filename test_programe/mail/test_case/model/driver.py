@@ -4,8 +4,8 @@ from selenium.webdriver import Remote
 from selenium import webdriver
 #启动浏览器驱动
 def browser():
-    # driver = webdriver.Chrome()
-    driver = webdriver.Ie()
+    driver = webdriver.Chrome()
+    # driver = webdriver.Ie()
     # driver = webdriver.Firefox()
     '''
     # 可以启动到远程主机中，运行自动化测试

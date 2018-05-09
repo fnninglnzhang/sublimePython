@@ -171,7 +171,7 @@ class Opendepository(Page):
         self.pppigopendepository_jx_binding_card(cardnumber)
         self.pppigopendepository_jx_getimaggecode_button()
         # 手动输入验证码
-        sleep(15)
+        sleep(11)
         self.pppigsuccessful_jx_agree_product()
         self.pppigsuccessful_jx_agree_button()
 
