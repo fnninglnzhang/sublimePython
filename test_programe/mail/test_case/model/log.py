@@ -1,5 +1,6 @@
 # coding:utf-8
 __author__ = 'helen'
+import time
 import logging
 from config import globalparameter as gl
 '''
@@ -52,4 +53,7 @@ class log:
 
     def error(self, msg):
         self.setMSG('error', msg)
+
+    def get_now_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
 

@@ -3,7 +3,7 @@
 from time import sleep
 import unittest, random, sys
 
-from model import log
+from model.log import log
 from model import myunit, function
 from page_object.pppig_login_page import LoginPage
 from page_object.pppig_recharge_page import Recharge
@@ -16,36 +16,33 @@ class RechargeTest(myunit.MyTest):
 	def test_login_success(self):
 		'''充值'''
 		try:
-			f = open('../date/recharge/recharge.txt')
+			f = open('../date/recharge/recharge2.txt')
 			lines = f.readlines()
 			for line in lines:
 				username = line.split(',')[0]
-				password = line.split(',')[1]
+				# password = line.split(',')[1]
 				pologin = LoginPage(self.driver)
 				pologin.open()
 				sleep(1)
-				pologin.pppiglogin_noclose_Action(username, password)
+				pologin.pppiglogin_noclose_Action(username, '111111')
 				sleep(2)
 				porecharge = Recharge(self.driver)
 				# 充值 -- 充值金额 -- 立即充值
-				# amount = '9000000'
 				amount = '9000000'
+				# amount = '1'
 				porecharge.recharge1_Action(amount)
 				# 江西充值页面_已加入手动输入验证码
 				sleep(1)
 				porecharge.jx_recharge_Action('111111')
 				sleep(1)
-				print(username+'用户充值成功')
-				function.insert_img(self.driver, "pppig_recharge_success.png")
-				sleep(1)
+				logger_info = log()
+				logger_info.setMSG('info', "username = {}充值成功".format(username))
+				print("username = {}充值成功".format(username))
 				pologout = LoginPage(self.driver)
 				pologout.pppiglogin_close_button()
 				sleep(1)
 		except BaseException as e:
 			print(e)
-
-
-
 
 
 

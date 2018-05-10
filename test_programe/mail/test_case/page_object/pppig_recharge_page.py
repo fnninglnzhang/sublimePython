@@ -44,6 +44,9 @@ class Recharge(Page):
 	jx_recharge_code_text = (By.XPATH, ".//*[@id='SMS_CODE']")
 	# 江西充值——确认
 	jx_recharge_enter_text = (By.XPATH, ".//*[@id='sub']")
+	# 自动跳转
+	# jx_zidongtiaozhuan_text = (By.XPATH, ".//*[@id='returntransaction1']/a")
+	jx_zidongtiaozhuan_text = (By.CSS_SELECTOR, "#returntransaction1>a")
 	# 把每一个元素封装成一个方法
 	# 我的账户
 	def pppigmy_account_button(self):
@@ -88,7 +91,9 @@ class Recharge(Page):
 	# 江西充值——点击获取验证码按钮
 	def jx_recharge_enter(self):
 		self.find_element(*self.jx_recharge_enter_text ).click()
-
+	# 自动跳转
+	def jx_zidongtiaozhuan(self):
+		self.find_element(*self.jx_zidongtiaozhuan_text).click()
 
 	"""
 	这个没用，加等待就可以解决
@@ -137,3 +142,5 @@ class Recharge(Page):
 		# self.jx_recharge_code(code)    # 需要手动输入验证码
 		sleep(15)
 		self.jx_recharge_enter()
+		sleep(2)
+		self.jx_zidongtiaozhuan()
