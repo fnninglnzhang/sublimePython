@@ -24,18 +24,24 @@ class To_investTest(myunit.MyTest):
                 po.open()
                 po.pppiglogin_noclose_Action(username, "111111")              # 用户登陆
                 sleep(2)
-                po.open_R('/recommendloanDetail?loanId=36019')                    # 标的 URL
+                po.open_R('/recommendloanDetail?loanId=36505')                    # 标的 URL
                 po1 = To_invest(self.driver)
                 sleep(2)
+
+
                 # 使用加息券
-                # po1.pppiguse_ratecoupon_Invest_Action(investmentamount)
+                po1.pppiguse_ratecoupon_Invest_Action(investmentamount)
                 # 使用红包
                 # po1.pppiguse_Redpacket_Invest_Action(investmentamount)
                 # 不使用卡券
-                po1.pppiguse_no_Coupon_Invest_Action(investmentamount)
+                # po1.pppiguse_no_Coupon_Invest_Action(investmentamount)
                 # 不使用卡券余额全投
                 # po1.pppiguse_NoRedpacket_Invest_All_Action()                       # 余额全投   使用加息券
+                # 使用加息券余额全投
+                # po1.pppiguse_Rate_Coupon_Invest_All_Action()
                 sleep(2)
+
+
                 po1.pppiginvest_Action3("1111")                                       # 图形验证码
                 sleep(2)
                 po1.pppiginvest_Action4("111111")                                     # 交易密码
@@ -43,7 +49,7 @@ class To_investTest(myunit.MyTest):
                 poclose = LoginPage(self.driver)
                 poclose.pppiglogin_close_button()
                 function.insert_img(self.driver, "invest_success.png")               # 截图
-                print('投资成功')
+                print('用户' + username + '投资' + investmentamount + '元' + '投资成功')
 
         except BaseException as e:
             print(e)

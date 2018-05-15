@@ -18,13 +18,13 @@ class To_investTest(myunit.MyTest):
                 po = LoginPage(self.driver)
                 sleep(2)
                 po.open()
-                username = '15647510953'
+                username = '13999655878'
                 po.pppiglogin_noclose_Action(username, "111111")
                 sleep(2)
-                po.open_R('/recommendloanDetail?loanId=36029')
+                po.open_R('/recommendloanDetail?loanId=36488')
                 po1 = To_invest(self.driver)
                 sleep(2)
-                amount = '50000'
+                amount = '21400'
                 # 使用加息券
                 # po1.pppiguse_ratecoupon_Invest_Action(amount)
                 # 使用红包
@@ -33,7 +33,9 @@ class To_investTest(myunit.MyTest):
                 # 不使用卡券余额全投
                 # po1.pppiguse_NoRedpacket_Invest_All_Action()
                 # 余额全投——使用红包——即刻投资
-                po1.pppiguse_Redpacket_Invest_All_Action()
+                # po1.pppiguse_Redpacket_Invest_All_Action()
+                # 使用加息券余额全投
+                po1.pppiguse_Rate_Coupon_Invest_All_Action()
                 sleep(2)
                 po1.pppiginvest_Action3("1111")
                 sleep(2)
@@ -41,7 +43,7 @@ class To_investTest(myunit.MyTest):
                 sleep(2)
                 poclose = LoginPage(self.driver)
                 poclose.pppiglogin_close_button()
-                print('用户'+username+'投资'+amount+'元'+'  投资成功')
+                print('用户'+username+'投资'+amount+'元'+'投资成功')
         except BaseException as e:
             print(e)
 

@@ -13,22 +13,37 @@ class To_investTest(myunit.MyTest):
 
     def test_to_invest_success(self):
         '''投资'''
-        po = LoginPage(self.driver)
-        sleep(2)
-        po.open()
-        po.pppiglogin_noclose_Action("13011111101", "111111")
-        sleep(3)
-        po1 = To_invest(self.driver)
-        # po1.pppiginvest_Action("200", "1111", "111111")
-        po1.pppiginvest_Action1()
-        sleep(2)
-        po1.pppiginvest_Action2("300")
-        sleep(2)
-        po1.pppiginvest_Action3("1111")
-        sleep(2)
-        po1.pppiginvest_Action4("111111")
-        sleep(2)
-        function.insert_img(self.driver, "success2.png")
+        try:
+            po = LoginPage(self.driver)
+            sleep(2)
+            po.open()
+            username = '18198084488'
+            po.pppiglogin_noclose_Action(username, "111111")
+            sleep(2)
+            po.open_R('/recommendloanDetail?loanId=36489')
+            po1 = To_invest(self.driver)
+            sleep(2)
+            amount = '3500'
+            # 使用加息券
+            # po1.pppiguse_ratecoupon_Invest_Action(amount)
+            # 使用红包
+            # po1.pppiguse_Redpacket_Invest_Action(amount)
+            po1.pppiguse_no_Coupon_Invest_Action(amount)
+            # 不使用卡券余额全投
+            # po1.pppiguse_NoRedpacket_Invest_All_Action()
+            # 余额全投——使用红包——即刻投资
+            # po1.pppiguse_Redpacket_Invest_All_Action()
+            sleep(2)
+            po1.pppiginvest_Action3("1111")
+            sleep(2)
+            po1.pppiginvest_Action4("111111")
+            sleep(2)
+            poclose = LoginPage(self.driver)
+            poclose.pppiglogin_close_button()
+            print('用户'+username+'投资'+amount+'元'+'投资成功')
+        except BaseException as e:
+            print(e)
+
 
 
 # 用于验证该脚本是否有效
