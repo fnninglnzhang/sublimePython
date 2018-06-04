@@ -20,7 +20,7 @@ class LoginTest(myunit.MyTest):
             for i in range(1, 100):
                 po = LoginPage(self.driver)
                 po.open()
-                username = 'UATtest048'
+                username = 'UATtest049'
                 po.pppiglogin_noclose_Action(username, '111111')
                 sleep(2)
                 po.open_R('/getNotTrusteePay')

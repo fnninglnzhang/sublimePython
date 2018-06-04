@@ -14,14 +14,14 @@ class To_investTest(myunit.MyTest):
     def test_to_invest_success(self):
         '''投资'''
         try:
-            for i in range(1, 10):
+            # for i in range(1, 10):
                 po = LoginPage(self.driver)
                 sleep(2)
                 po.open()
-                username = '13094995136'
+                username = '13011111101'
                 po.pppiglogin_noclose_Action(username, "111111")
                 sleep(2)
-                po.open_R('/recommendloanDetail?loanId=36394')
+                po.open_R('/recommendloanDetail?loanId=36210')
                 po1 = To_invest(self.driver)
                 sleep(2)
                 amount = '1000'

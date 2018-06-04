@@ -24,7 +24,7 @@ class To_investTest(myunit.MyTest):
                 po.open()
                 po.pppiglogin_noclose_Action(username, "111111")              # 用户登陆
                 sleep(2)
-                po.open_R('/recommendloanDetail?loanId=36413')                    # 标的 URL
+                po.open_R('/recommendloanDetail?loanId=36201')                    # 标的 URL
                 po1 = To_invest(self.driver)
                 sleep(2)
                 # 使用加息券
@@ -38,6 +38,7 @@ class To_investTest(myunit.MyTest):
                 # 使用加息券余额全投
                 # po1.pppiguse_Rate_Coupon_Invest_All_Action()
                 sleep(2)
+
                 po1.pppiginvest_Action3("1111")                                       # 图形验证码
                 sleep(2)
                 po1.pppiginvest_Action4("111111")                                     # 交易密码
