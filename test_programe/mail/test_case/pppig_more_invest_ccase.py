@@ -6,15 +6,15 @@ from model import myunit, function
 from page_object.pppig_login_page import LoginPage
 from page_object.pppig_to_invest_page import To_invest
 from page_object.pppig_product_details_page import Product_details
-sys.path.append('./model')
-sys.path.append('./page_obj')
+
+loanId = 36413
 
 class To_investTest(myunit.MyTest):
 
     def test_aredpack_invest_success(self):
         '''使用红包投资'''
         try:
-            f = open('../date/invest/invest1.txt')
+            f = open('../date/invest/invest3.txt')
             lines = f.readlines()
             for line in lines:
                 username = line.split(',')[0]
@@ -24,7 +24,8 @@ class To_investTest(myunit.MyTest):
                 po.open()
                 po.pppiglogin_noclose_Action(username, "111111")              # 用户登陆
                 sleep(2)
-                po.open_R('/recommendloanDetail?loanId=35925')                    # 标的 URL
+                # po.open_R('/recommendloanDetail?loanId=35925')                    # 标的 URL
+                po.open_R('/recommendloanDetail?loanId={}'.format(loanId))
                 po1 = To_invest(self.driver)
                 sleep(2)
                 # 使用加息券
@@ -61,7 +62,8 @@ class To_investTest(myunit.MyTest):
                 po.open()
                 po.pppiglogin_noclose_Action(username, "111111")  # 用户登陆
                 sleep(2)
-                po.open_R('/recommendloanDetail?loanId=35925')  # 标的 URL
+                # po.open_R('/recommendloanDetail?loanId=35925')  # 标的 URL
+                po.open_R('/recommendloanDetail?loanId={}'.format(loanId))
                 po1 = To_invest(self.driver)
                 sleep(2)
                 # 使用加息券
@@ -86,9 +88,9 @@ class To_investTest(myunit.MyTest):
             print(e)
 
     def test_cnopack_invest_success(self):
-        '''无卡券投资'''
+        '''无卡券余额全投'''
         try:
-            f = open('../date/invest/invest3.txt')
+            f = open('../date/invest/invest4.txt')
             lines = f.readlines()
             for line in lines:
                 username = line.split(',')[0]
@@ -98,7 +100,8 @@ class To_investTest(myunit.MyTest):
                 po.open()
                 po.pppiglogin_noclose_Action(username, "111111")  # 用户登陆
                 sleep(2)
-                po.open_R('/recommendloanDetail?loanId=35925')  # 标的 URL
+                # po.open_R('/recommendloanDetail?loanId=35925')  # 标的 URL
+                po.open_R('/recommendloanDetail?loanId={}'.format(loanId))
                 po1 = To_invest(self.driver)
                 sleep(2)
                 # 使用加息券

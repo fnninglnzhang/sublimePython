@@ -6,7 +6,7 @@ from model import myunit, function
 from page_object.pppig_login_page import LoginPage
 from page_object.pppig_to_invest_page import To_invest
 from page_object.pppig_product_details_page import Product_details
-loanId = 36068
+loanId = 36507
 class To_investTest(myunit.MyTest):
 
     # def __init__(self):
@@ -137,7 +137,7 @@ class To_investTest(myunit.MyTest):
                 sleep(2)
                 poclose = LoginPage(self.driver)
                 poclose.pppiglogin_close_button()
-                function.insert_img(self.driver, "invest_success.png")  # 截图
+                # function.insert_img(self.driver, "invest_success.png")  # 截图
                 print('用户' + username + '投资' + investmentamount + '元' + '投资成功')
 
         except BaseException as e:
