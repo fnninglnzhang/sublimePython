@@ -61,6 +61,9 @@ class Page(object):
 		except AttributeError:
 			print(u"%s 页面中未能找到 %s 元素" % (self, loc))
 
+	def tanchuan(self, *loc):
+		return self.driver.switch_to_frame(*loc)
+
 """
 	if __name__ == "__main__":
 		unittest.main()

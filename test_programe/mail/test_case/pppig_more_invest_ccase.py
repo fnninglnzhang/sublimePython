@@ -8,7 +8,7 @@ from page_object.pppig_to_invest_page import To_invest
 from page_object.pppig_product_details_page import Product_details
 
 
-loanId = 36395
+loanId = 36451
 
 class To_investTest(myunit.MyTest):
 
