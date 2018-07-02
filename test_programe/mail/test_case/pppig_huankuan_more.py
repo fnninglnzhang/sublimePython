@@ -29,7 +29,7 @@ class HuankuanTest(myunit.MyTest):
                 # po.open_R('/backingBorrow')
                 po.open_R('/repayDetail?loanId={}'.format(loanId))
                 pohuankuan = Huankuan(self.driver)
-                pohuankuan.pppighuankuan_Action()
+                pohuankuan.pppighuankuan2_Action()
                 po1 = To_invest(self.driver)
                 po1.pppiginvest_Action4("111111")
                 sleep(2)

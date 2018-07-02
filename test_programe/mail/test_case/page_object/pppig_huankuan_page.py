@@ -36,4 +36,9 @@ class Huankuan(Page):
         self.pppighuankuan_btnb()
         self.switch_to_alert()
 
+    def pppighuankuan2_Action(self):
+        self.pppighuankuan_yuandian()
+        self.pppighuankuan_btnb()
+        self.switch_to_alert()
+
 

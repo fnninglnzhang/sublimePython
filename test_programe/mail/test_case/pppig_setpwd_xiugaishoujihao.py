@@ -14,7 +14,7 @@ class Setpwd_changmblTest(myunit.MyTest):
 		u'''设置交易密码，修改手机号'''
 		pologin = LoginPage(self.driver)
 		pologin.open()
-		username = 15110867276
+		username = 15327638513
 		pologin.pppiglogin_noclose_Action(username, '111111')
 		sleep(1)
 		# 设置交易密码
@@ -24,6 +24,10 @@ class Setpwd_changmblTest(myunit.MyTest):
 		sleep(10)
 		pomodifyphone = Modify_cellphone_Page(self.driver)
 		pomodifyphone.pppigmodify_phone_Action('15120080522', username)
+
+
+
+
 
 
 

@@ -21,7 +21,7 @@ class To_investTest(myunit.MyTest):
                 username = '13011111101'
                 po.pppiglogin_noclose_Action(username, "111111")
                 sleep(2)
-                po.open_R('/recommendloanDetail?loanId=36210')
+                po.open_R('/recommendloanDetail?loanId=37282')
                 po1 = To_invest(self.driver)
                 sleep(2)
                 amount = '1000'
